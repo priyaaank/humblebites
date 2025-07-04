@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% seo %}
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="top-nav-container">
+            <span class="site-title">{{ site.title }}</span>
+            
+            <ul class="top-nav-menu">
+                <li><a href="/" class="nav-link {% if page.url == '/' %}active{% endif %}">Menu</a></li>
+                <li><a href="/story.html" class="nav-link {% if page.url == '/story.html' %}active{% endif %}">Story</a></li>
+                <li><a href="/chef.html" class="nav-link {% if page.url == '/chef.html' %}active{% endif %}">Chef</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <aside class="sidebar">
+            <div class="menu-logo-section">
+                <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }} Logo" class="menu-logo">
+            </div>
+            
+            {% if page.url == '/' %}
+            <nav class="category-nav">
+                <h3 class="nav-title">Menu Categories</h3>
+                <ul>
+                    {% for category in site.data.menu.categories %}
+                    <li>
+                        <a href="#{{ category.slug }}" data-category="{{ category.slug }}">
+                            {{ category.name }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+            {% endif %}
+        </aside>
+        
+        <main class="main-content">
+            {{ content }}
+        </main>
+    </div>
+    
+    <script src="{{ '/assets/js/menu.js' | relative_url }}"></script>
+</body>
+</html>

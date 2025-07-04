@@ -1,0 +1,38 @@
+title: "Humble Bites"
+description: "Artisanal cuisine crafted with love and local ingredients"
+baseurl: ""
+url: "https://USERNAME.github.io"
+
+# GitHub Pages configuration
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Site settings
+tagline: "Farm to Table Excellence"
+chef_name: "Chef Isabella Rodriguez"
+location: "Downtown Culinary District"
+
+# Collections
+collections:
+  menu_items:
+    output: false
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
