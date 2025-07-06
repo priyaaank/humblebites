@@ -16,6 +16,8 @@ location: "Downtown Culinary District"
 
 # Collections
 collections:
+  content:
+    output: false
   menu_items:
     output: false
 
