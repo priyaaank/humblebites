@@ -17,13 +17,17 @@ This repository is configured to automatically deploy to GitHub Pages using GitH
    - Scroll down to **Pages** section
    - Under **Source**, select **GitHub Actions**
 
-3. **Repository URL Configuration**
-   - The site is configured to deploy at: `https://priyaaank.github.io/humblebites`
+3. **Custom Domain Configuration**
+   - The site is configured to deploy at: `https://humblebites.in`
    - Current configuration in `_config.yml`:
      ```yaml
-     url: "https://priyaaank.github.io"
-     baseurl: "/humblebites"
+     url: "https://humblebites.in"
+     baseurl: ""
      ```
+   - For custom domain setup:
+     - Add a `CNAME` file in the repository root with `humblebites.in`
+     - Configure DNS to point to GitHub Pages
+     - Enable custom domain in GitHub Pages settings
 
 ## Automatic Deployment
 

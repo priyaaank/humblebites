@@ -1,7 +1,7 @@
 title: "Humble Bites"
 description: "Artisanal cuisine crafted with love and local ingredients"
-baseurl: "/humblebites"
-url: "https://priyaaank.github.io"
+baseurl: ""
+url: "https://humblebites.in"
 
 # GitHub Pages configuration
 plugins:
