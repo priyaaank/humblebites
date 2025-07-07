@@ -62,7 +62,7 @@ items:
       allergens: ["dairy", "gluten"]
       image: "/assets/images/Banana chocolate muffin.JPG"
 
-     - name: "Vanilla Choco Chunk Muffins"
+    - name: "Vanilla Choco Chunk Muffins"
       description: "Fudgy, gooey, and loaded with chunky chocolate bites — these vanilla Muffins doesn’t mess around. It’s rich, intense, and unapologetically indulgent. 🍫💥"
       price: "₹ 125"
       quantity: "1 Piece (115gms+)"
