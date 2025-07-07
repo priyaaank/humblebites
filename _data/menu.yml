@@ -1,145 +1,122 @@
 categories:
   - name: "Appetizers"
     slug: "appetizers"
-  - name: "Soups & Salads"
-    slug: "soups-salads"
-  - name: "Main Courses"
-    slug: "main-courses"
-  - name: "Desserts"
-    slug: "desserts"
-  - name: "Beverages"
+  - name: "Bakes n Desserts"
+    slug: "bakes-desserts"
+  - name: "Beverages & Coolers (Seasonal)"
     slug: "beverages"
+  - name: "Non-Veggie Solo"
+    slug: "nonveg-solo"
+  - name: "Subscription Menu"
+    slug: "subscription"
 
 items:
   appetizers:
-    - name: "Truffle Arancini"
-      description: "Crispy risotto balls filled with wild mushrooms, truffle oil, and aged parmesan, served with roasted garlic aioli"
-      price: "₹1,200"
-      quantity: "4 pieces"
+    - name: "Vada Paav"
+      description: "Mumbai’s iconic food, a spicy potato fritter hugged by a pav (bun), with fiery garlic chutneys and a green chili on the side. Bold, messy, and absolutely addictive"
+      price: "₹ 75"
+      quantity: "1 Piece"
       type: "veg"
-      allergens: ["dairy", "gluten"]
-      image: "/assets/images/lemondrizzlecake.jpg"
+      allergens: ["gluten", "nuts"]
+      image: "/assets/images/vadapaav.jpg"
     
-    - name: "Burrata & Fig Crostini"
-      description: "Fresh burrata cheese over grilled sourdough with caramelized figs, prosciutto, and honey drizzle"
-      price: "₹1,350"
-      quantity: "3 pieces"
-      type: "non-veg"
-      allergens: ["dairy", "gluten"]
-      image: "/assets/images/burrata-crostini.jpg"
+    - name: "Sambarwadi"
+      description: "A lesser-known Maharashtrian gem, flaky pastry pockets stuffed with a spiced mix of coconut, coriander, and gram flour. Think samosa, but sassier and way more flavour-packed."
+      price: "₹ 120"
+      quantity: "2 Pieces"
+      type: "veg"
+      allergens: ["None"]
+      image: "/assets/images/sambarwadi.jpg"
     
-    - name: "Seared Scallops"
-      description: "Pan-seared diver scallops with cauliflower purée, pancetta crisps, and microgreens"
-      price: "₹1,650"
-      quantity: "3 pieces"
-      type: "non-veg"
-      allergens: ["shellfish"]
-      image: "/assets/images/seared-scallops.jpg"
-
-  soups-salads:
-    - name: "Roasted Butternut Squash Soup"
-      description: "Velvety butternut squash soup with coconut cream, toasted pumpkin seeds, and sage oil"
-      price: "₹900"
-      quantity: "300ml"
+    - name: "Sabudana Wada"
+      description: "Crispy on the outside, soft and nutty inside, these golden fritters of sago, peanuts, and mashed potato are a fasting favorite turned full-time snack star"
+      price: "₹ 115"
+      quantity: "4 Pieces"
       type: "veg"
       allergens: ["nuts"]
-      image: "/assets/images/butternut-soup.jpg"
+      image: "/assets/images/sabudana.jpg"
     
-    - name: "Garden Harvest Salad"
-      description: "Mixed organic greens with roasted beets, goat cheese, candied walnuts, and pomegranate vinaigrette"
-      price: "₹1,050"
+    - name: "Dabeli"
+      description: "A spicy, sweet, and tangy mashed potato filling snuggled inside a Paav, loaded with crunchy peanuts, pomegranate pearls, and a secret chutney twist. Street-style magic from Kutch!"
+      price: "₹ 100"
+      quantity: "1 Piece"
+      type: "veg"
+      allergens: ["nuts"]
+      image: "/assets/images/dabeli.jpg"
+
+  bakes-desserts:
+    
+    - name: "Lemon Drizzle Cake"
+      description: "Light, zesty, and utterly irresistible — this buttery cake is soaked in a tangy lemon glaze that adds just the right zing. Sunshine, but in slice form! 🍋✨"
+      price: "₹ 200"
       quantity: "250g"
       type: "veg"
-      allergens: ["dairy", "nuts"]
-      image: "/assets/images/harvest-salad.jpg"
-    
-    - name: "Caesar Reimagined"
-      description: "Little gem lettuce with house-made anchovy dressing, parmesan snow, and sourdough croutons"
-      price: "₹975"
-      quantity: "200g"
-      type: "non-veg"
-      allergens: ["dairy", "gluten", "fish"]
-      image: "/assets/images/caesar-salad.jpg"
-
-  main-courses:
-    - name: "Herb-Crusted Lamb Rack"
-      description: "New Zealand lamb rack with rosemary-mint crust, ratatouille, and red wine jus"
-      price: "₹2,700"
-      quantity: "300g"
-      type: "non-veg"
-      allergens: []
-      image: "/assets/images/lamb-rack.jpg"
-    
-    - name: "Wild Salmon Wellington"
-      description: "Atlantic salmon wrapped in puff pastry with spinach, mushroom duxelles, and lemon beurre blanc"
-      price: "₹2,100"
-      quantity: "350g"
-      type: "non-veg"
-      allergens: ["fish", "gluten", "dairy"]
-      image: "/assets/images/salmon-wellington.jpg"
-    
-    - name: "Duck Confit Risotto"
-      description: "Creamy arborio risotto with duck confit, dried cherries, and fresh thyme"
-      price: "₹1,950"
-      quantity: "300g"
-      type: "non-veg"
       allergens: ["dairy"]
-      image: "/assets/images/duck-risotto.jpg"
+      image: "/assets/images/lemondrizzlecakesprinkle.jpg"
     
-    - name: "Vegetarian Tart"
-      description: "Seasonal vegetable tart with herbed ricotta, roasted peppers, and balsamic glaze"
-      price: "₹1,650"
-      quantity: "250g"
-      type: "veg"
+    - name: "Choco Chunk Brownie"
+      description: "Fudgy, gooey, and loaded with chunky chocolate bites — this brownie doesn’t mess around. It’s rich, intense, and unapologetically indulgent. 🍫💥"
+      price: "₹ 200"
+      quantity: "1 Piece"
+      type: "egg"
       allergens: ["dairy", "gluten"]
-      image: "/assets/images/vegetarian-tart.jpg"
+      image: "/assets/images/chocochunkbrownie.jpg"
 
-  desserts:
-    - name: "Chocolate Lava Cake"
-      description: "Dark chocolate molten cake with vanilla bean ice cream and raspberry coulis"
-      price: "₹900"
-      quantity: "1 serving"
-      type: "veg"
-      allergens: ["dairy", "gluten", "eggs"]
-      image: "/assets/images/lava-cake.jpg"
+    - name: "Coconut Chocolate Cookies"
+      description: "Crispy edges, chewy centers, and a tropical-choco twist! These cookies blend toasted coconut with melty chocolate chunks for a bite that's both cozy and exotic. 🥥🍫"
+      price: "₹ 200"
+      quantity: "115 grams"
+      type: "egg"
+      allergens: ["dairy", "gluten"]
+      image: "/assets/images/coconutchocolatecookie.jpg"
     
-    - name: "Lemon Tart"
-      description: "Classic lemon curd tart with meringue peaks and candied lemon zest"
-      price: "₹750"
-      quantity: "1 slice"
-      type: "veg"
-      allergens: ["dairy", "gluten", "eggs"]
-      image: "/assets/images/lemon-tart.jpg"
-    
-    - name: "Tiramisu"
-      description: "Traditional Italian tiramisu with espresso-soaked ladyfingers and mascarpone"
-      price: "₹825"
-      quantity: "1 serving"
-      type: "veg"
-      allergens: ["dairy", "gluten", "eggs"]
-      image: "/assets/images/tiramisu.jpg"
+    - name: "Choco Chunk Cookies"
+      description: "Golden, chewy, and generously studded with big, melty chocolate chunks — these cookies are your ultimate pick-me-up with every bite. Classic, but with a chunky twist! 🍪🍫"
+      price: "₹ 200"
+      quantity: "115 grams"
+      type: "egg"
+      allergens: ["dairy", "gluten"]
+      image: "/assets/images/chocochunkcookie.png"
 
+  nonveg-solo:
+    - name: "Keema Paav"
+      description: "Spicy minced meat simmered to perfection, served with buttery toasted pav — this Mumbai-style classic is bold, comforting, and made for messy, satisfying bites. 🍖🍞🔥"
+      price: "₹ 400"
+      quantity: "2 Paav & 150 grams Keema"
+      type: "non-veg"
+      allergens: ["gluten"]
+      image: "/assets/images/keemapaav.jpg"
+
+    - name: "Mutton Keema Kebab"
+      description: "Juicy, spiced minced mutton shaped into melt-in-the-mouth kebabs — smoky, aromatic, and perfect for when you crave something bold and meaty.🔥🥩✨"
+      price: "₹ 400"
+      quantity: "2 Pieces"
+      type: "non-veg"
+      allergens: ["None"]
+      image: "/assets/images/muttonkeemakebab.jpg"
+    
   beverages:
-    - name: "House Wine Selection"
-      description: "Carefully curated wines from local vineyards - ask your server for today's selection"
-      price: "₹600-₹1,125"
-      quantity: "150ml glass"
+    - name: "Aam Panna"
+      description: "Summer in a glass! This tangy-sweet cooler made from raw mangoes is spiked with cumin, mint, and just the right sass. Hydrating, refreshing, and totally aam-azing!"
+      price: "₹ 75"
+      quantity: "300 ml"
       type: "veg"
-      allergens: ["sulphites"]
+      allergens: ["None"]
       image: "/assets/images/wine-selection.jpg"
-    
-    - name: "Craft Cocktails"
-      description: "Seasonal cocktails made with premium spirits and house-made syrups"
-      price: "₹900-₹1,200"
-      quantity: "1 cocktail"
+  
+  subscription:
+    - name: "Almond biscotti"
+      description: "Twice-baked, golden crisp, and delightfully nutty — these Italian-style cookies are packed with toasted almonds and made for dunking in your coffee or chai. Classy, crunchy, and totally addictive! ☕🌰"
+      price: "₹ 400"
+      quantity: "110 grams"
       type: "veg"
-      allergens: []
-      image: "/assets/images/craft-cocktails.jpg"
+      allergens: ["Gluten", "Nuts"]
+      image: "/assets/images/biscotti.jpg"
     
-    - name: "Artisan Coffee"
-      description: "Single-origin coffee roasted locally, served as espresso, americano, or with steamed milk"
-      price: "₹300-₹450"
-      quantity: "1 cup"
+    - name: "Oatmeal cookies"
+      description: "Hearty, chewy, and a little nostalgic — these golden bites are loaded with oats, a hint of cinnamon, and just enough sweetness to keep you coming back for more. Comfort in cookie form! 🍪🌾"
+      price: "₹ 400"
+      quantity: "110 grams"
       type: "veg"
-      allergens: []
-      image: "/assets/images/artisan-coffee.jpg"
+      allergens: ["Gluten", "Nuts"]
+      image: "/assets/images/oatmcookie.jpg"
