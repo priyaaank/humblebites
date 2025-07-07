@@ -22,7 +22,7 @@ items:
     
     - name: "Sambarwadi"
       description: "A lesser-known Maharashtrian gem, flaky pastry pockets stuffed with a spiced mix of coconut, coriander, and gram flour. Think samosa, but sassier and way more flavour-packed."
-      price: "₹ 120"
+      price: "₹ 130"
       quantity: "2 Pieces"
       type: "veg"
       allergens: ["nuts","poppy seeds"]
@@ -54,13 +54,21 @@ items:
       allergens: ["dairy"]
       image: "/assets/images/lemondrizzlecakesprinkle.jpg"
     
-    - name: "Choco Chunk Brownie"
-      description: "Fudgy, gooey, and loaded with chunky chocolate bites — this brownie doesn’t mess around. It’s rich, intense, and unapologetically indulgent. 🍫💥"
-      price: "₹ 200"
-      quantity: "1 Piece"
+    - name: "Banana Choco Chunk Muffins"
+      description: "Fudgy, gooey, and loaded with banana, chunky chocolate bites — this muffin doesn’t mess around. It’s rich, intense, and unapologetically indulgent. 🍫💥"
+      price: "₹ 130"
+      quantity: "1 Piece (115gms+)"
       type: "veg"
       allergens: ["dairy", "gluten"]
-      image: "/assets/images/chocochunkbrownie.jpg"
+      image: "/assets/images/Banana chocolate muffin.JPG"
+
+     - name: "Vanilla Choco Chunk Muffins"
+      description: "Fudgy, gooey, and loaded with chunky chocolate bites — these vanilla Muffins doesn’t mess around. It’s rich, intense, and unapologetically indulgent. 🍫💥"
+      price: "₹ 125"
+      quantity: "1 Piece (115gms+)"
+      type: "veg"
+      allergens: ["dairy", "gluten"]
+      image: "priyaaank/humblebites/assets/images/Vanilla chocolate muffins.JPG"
 
     - name: "Coconut Chocolate Cookies"
       description: "Crispy edges, chewy centers, and a tropical-choco twist! These cookies blend toasted coconut with melty chocolate chunks for a bite that's both cozy and exotic. 🥥🍫"
@@ -111,7 +119,7 @@ items:
       quantity: "110 grams"
       type: "veg"
       allergens: ["Gluten", "Nuts"]
-      image: "/assets/images/biscotti.jpg"
+      image: "/assets/images/Amond Biscotti.JPG"
 
     - name: "Lemon Almond biscotti"
       description: "Twice-baked, golden crisp, and delightfully nutty — these Italian biscottis are packed with toasted almonds and nd a zesty lemon twist, made for dunking in your coffee or chai. Classy, crunchy, and totally addictive! ☕🌰"
@@ -119,7 +127,7 @@ items:
       quantity: "110 grams"
       type: "veg"
       allergens: ["Gluten", "Nuts"]
-      image: "/assets/images/biscotti.jpg"
+      image: "/assets/images/Lemon Almond Biscotti.JPG"
 
     - name: "Lemon biscotti"
       description: "Twice-baked and golden crisp with a bright, zesty lemon twist — these Italian biscottis are light, citrusy, and perfect for dunking in your coffee or chai. Elegant, crunchy, and utterly addictive! ☕🍋"
@@ -127,7 +135,7 @@ items:
       quantity: "110 grams"
       type: "veg"
       allergens: ["Gluten"]
-      image: "/assets/images/biscotti.jpg"
+      image: "/assets/images/Lemon Biscotti.JPG"
 
     - name: "Cranberry Almond Biscotti"
       description: "Twice-baked, golden crisp, and deliciously nutty — these Italian biscottis are dotted with tangy cranberries and crunchy almonds, made for dunking in your coffee or chai. Classy, crunchy, and totally addictive! ☕🌰🍒"
