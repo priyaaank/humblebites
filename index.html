@@ -6,6 +6,9 @@ title: Menu
 {% for category in site.data.menu.categories %}
 <section class="menu-section" id="{{ category.slug }}">
     <h2 class="section-title">{{ category.name }}</h2>
+    {% if category.description %}
+    <p class="section-description">{{ category.description }}</p>
+    {% endif %}
     
     {% assign category_items = site.data.menu.items[category.slug] %}
     {% for item in category_items %}

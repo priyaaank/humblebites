@@ -1,14 +1,19 @@
 categories:
   - name: "Appetizers"
     slug: "appetizers"
+    description: "Street-style favorites and traditional bites to kickstart your meal"
   - name: "Bakes n Desserts"
     slug: "bakes-desserts"
+    description: "Freshly baked treats and sweet indulgences made with love"
   - name: "Beverages & Coolers (Seasonal)"
     slug: "beverages"
+    description: "Refreshing drinks to beat the heat and quench your thirst"
   - name: "Non-Veggie Solo"
     slug: "nonveg-solo"
+    description: "Hearty meat dishes for those who crave bold, savory flavors"
   - name: "Subscription Menu"
     slug: "subscription"
+    description: "Artisanal food that you can subscribe to be delivered at specific frequency"
 
 items:
   appetizers:
