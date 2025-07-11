@@ -207,7 +207,7 @@ body {
     border-radius: 8px;
     object-fit: cover;
     margin-right: $spacing-md;
-    border: 3px solid $sage-green;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
     
     @media (max-width: $mobile) {
       width: 80px;
