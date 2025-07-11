@@ -1,35 +1,45 @@
-## The Beginning
 
-Humble Bites was born from a simple belief: that exceptional food comes from exceptional ingredients, prepared with passion and served with heart. Founded in 2018 in the heart of the Downtown Culinary District, our restaurant emerged from a desire to create an intimate dining experience that celebrates the bounty of local farms and the artistry of thoughtful cooking.
+At Humble Bites, our story begins not in a boardroom, but in a kitchen, where every dish is an ode to honesty, authenticity, and uncompromising care.
 
-## Our Philosophy
+<br/>
+## The Philosophy of Cooking
+We believe great food starts with great ingredients. That’s why we’re obsessed, lovingly so, with quality. From the flour in your cake to the spices in your kebab, every ingredient is chosen with intention. No shortcuts, no substitutes, no compromise. Just real food, prepared the way it was meant to be.
 
-We believe in the power of simplicity—letting the natural flavors of seasonal, locally-sourced ingredients shine through carefully crafted dishes. Every plate tells a story of the farmers who grew our vegetables, the ranchers who raised our livestock, and the artisans who create our bread, cheese, and wine.
+Radina, our chef and founder, follows traditional cooking methods that preserve the integrity of original recipes. She brings alive flavors that are true to their roots — honest, bold, and soul-satisfying. Each bite is designed to remind you of how food should taste, whether it’s a perfectly spiced keema paav or a lemon drizzle cake that actually drizzles with love.
 
-Our menu changes with the seasons, reflecting our commitment to sustainability and our relationship with the land. We work directly with over 20 local farms within a 50-mile radius, ensuring that our ingredients are not only fresh but also support our community's agricultural heritage.
+We don’t chase trends or prettify our plates to impress, we cook to nourish, to delight, and to create memories that linger on the palate.
 
-## Crafted with Care
+<br/>
+## The Philosophy of Business
+We’re not here to scale, mass-produce, or become the next big food brand. Humble Bites is proudly small, and plans to stay that way. This is a conscious choice.
 
-In our kitchen, every dish is prepared from scratch using traditional techniques passed down through generations, enhanced by modern culinary innovation. We cure our own meats, make our pasta by hand, ferment our own vegetables, and bake our bread daily.
+We believe in slow food, in small batches, and in the magic that happens when one person pours their heart, soul, and full attention into the food they create. That’s why Radina still cooks every dish herself, no ghost kitchens, no industrial kitchens, and no dilution of love.
 
-Our commitment extends beyond the plate to our dining room, where we've created an atmosphere that feels like dining in the home of a dear friend—warm, welcoming, and filled with the aromas of exceptional cooking.
+Our pricing reflects this philosophy. We're not premium for the sake of it, and we’re not competing to be the cheapest. We're priced just right for what we offer — honest, thoughtfully made food that respects the value of effort, quality, and flavor.
 
-## Community & Connection
+<br/>
+## Why It Matters
+In a world that celebrates speed, scale, and sameness, Humble Bites chooses slowness, soul, and sincerity. We're building a business that tastes like home, feels like care, and stands for something more than just the bottom line.
 
-Humble Bites is more than a restaurant; it's a gathering place where food brings people together. We host seasonal dinners featuring guest farmers, wine tastings with local vintners, and cooking classes that share our passion for exceptional food with our community.
+When you eat our food, we hope you taste the difference, and feel it too.
 
-Every meal served is our commitment to you—to provide not just nourishment, but an experience that celebrates the joy of eating well, the importance of supporting local agriculture, and the simple pleasure of sharing a beautifully prepared meal with others.
-
+<br/>
 ## Our Core Values
 
-### 🌱 Sustainability
-Partnering with local farms and using seasonal ingredients to minimize our environmental impact.
+At Humble Bites, our values are the invisible ingredients in everything we serve. They guide not just how we cook, but why we cook.
 
-### 🤝 Community
-Supporting local producers and creating connections between diners, farmers, and artisans.
 
-### ✨ Quality
-Never compromising on the quality of ingredients or the care we put into every dish.
+### Uncompromising Ingredients
+We never cut corners. Only the best, freshest, and most honest ingredients make it into our kitchen, because great food starts with great choices.
 
-### 💛 Hospitality
-Creating warm, memorable experiences that make every guest feel like family.
+### Authenticity Over Aesthetics
+Our recipes honor tradition. We cook the original way, not the trendy way, because we believe flavor should come from process, not plating.
+
+### Honest Flavors
+Every bite should taste like the real thing. No artificial tricks. No overpowering seasoning. Just flavors that stay true to what the dish was always meant to be.
+
+### Small By Design
+We’re not chasing scale. We believe small is beautiful, it’s how we stay close to the food, keep our standards high, and ensure every batch has Radina’s touch.
+
+### Cooked With Love
+Food made with love doesn’t just fill your stomach, it fills your soul. That’s why every dish is handmade, heart-first.

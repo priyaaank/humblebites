@@ -99,35 +99,34 @@
 
 .chef-intro {
   display: flex;
+  flex-direction: column;
   gap: $spacing-xl;
   margin-bottom: $spacing-xl;
-  align-items: flex-start;
-  
-  @media (max-width: $tablet) {
-    flex-direction: column;
-    text-align: center;
-  }
+  align-items: center;
+  text-align: center;
   
   .chef-portrait {
     flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     
     .chef-image {
-      width: 300px;
-      height: 400px;
+      width: 200px;
+      height: 200px;
       object-fit: cover;
-      border-radius: 12px;
-      border: 4px solid $sage-green;
+      border-radius: 50%;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
       
       @media (max-width: $tablet) {
-        width: 250px;
-        height: 320px;
-        margin: 0 auto;
+        width: 180px;
+        height: 180px;
       }
     }
   }
   
   .chef-summary {
-    flex: 1;
+    max-width: 600px;
     
     .lead-text {
       font-size: 1.3rem;

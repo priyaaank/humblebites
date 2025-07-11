@@ -60,7 +60,7 @@ items:
       quantity: "1 Piece (115gms+)"
       type: "veg"
       allergens: ["dairy", "gluten"]
-      image: "/assets/images/Banana chocolate muffin.JPG"
+      image: "/assets/images/bananachocolatemuffin.jpg"
 
     - name: "Vanilla Choco Chunk Muffins"
       description: "Fudgy, gooey, and loaded with chunky chocolate bites — these vanilla Muffins doesn’t mess around. It’s rich, intense, and unapologetically indulgent. 🍫💥"
@@ -68,7 +68,7 @@ items:
       quantity: "1 Piece (115gms+)"
       type: "veg"
       allergens: ["dairy", "gluten"]
-      image: "priyaaank/humblebites/assets/images/Vanilla chocolate muffins.JPG"
+      image: "assets/images/vanillachocolatemuffins.jpg"
 
     - name: "Coconut Chocolate Cookies"
       description: "Crispy edges, chewy centers, and a tropical-choco twist! These cookies blend toasted coconut with melty chocolate chunks for a bite that's both cozy and exotic. 🥥🍫"
@@ -110,7 +110,7 @@ items:
       quantity: "300 ml"
       type: "veg"
       allergens: ["None"]
-      image: "/assets/images/wine-selection.jpg"
+      image: "/assets/images/aampanna.jpg"
   
   subscription:
     - name: "Almond biscotti"
