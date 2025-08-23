@@ -1,7 +1,7 @@
 categories:
-  - name: "Select Menu"
-    slug: "selectmenu"
-    description: "Our curated selection of most popular snacks and bakes, perfect for every occasion"
+  - name: "Appetizers"
+    slug: "appetizers"
+    description: "Street-style favorites and traditional bites to kickstart your meal"
   - name: "Bakes n Desserts"
     slug: "bakes-desserts"
     description: "Freshly baked treats and sweet indulgences made with love"
@@ -16,7 +16,7 @@ categories:
     description: "Artisanal food that you can subscribe to be delivered at specific frequency"
 
 items:
-  selectmenu:
+  appetizers:
     - name: "Vada Paav"
       description: "Mumbai’s iconic food, a spicy potato fritter hugged by a pav (bun), with fiery garlic chutneys and a green chili on the side. Bold, messy, and absolutely addictive"
       price: "₹ 75"
@@ -24,6 +24,14 @@ items:
       type: "veg"
       allergens: ["gluten", "nuts"]
       image: "/assets/images/vadapaav.jpg"
+    
+    - name: "Sambarwadi"
+      description: "A lesser-known Maharashtrian gem, flaky pastry pockets stuffed with a spiced mix of coconut, coriander, and gram flour. Think samosa, but sassier and way more flavour-packed."
+      price: "₹ 130"
+      quantity: "2 Pieces"
+      type: "veg"
+      allergens: ["nuts","poppy seeds"]
+      image: "/assets/images/sambarwadi.jpg"
     
     - name: "Sabudana Wada"
       description: "Crispy on the outside, soft and nutty inside, these golden fritters of sago, peanuts, and mashed potato are a fasting favorite turned full-time snack star"
@@ -33,6 +41,48 @@ items:
       allergens: ["nuts"]
       image: "/assets/images/sabudana.jpg"
     
+    - name: "Dabeli"
+      description: "A spicy, sweet, and tangy mashed potato filling snuggled inside a Paav, loaded with crunchy peanuts, pomegranate pearls, and a secret chutney twist. Street-style magic from Kutch!"
+      price: "₹ 100"
+      quantity: "1 Piece"
+      type: "veg"
+      allergens: ["nuts"]
+      image: "/assets/images/dabeli.jpg"
+
+  bakes-desserts:
+    
+    - name: "Lemon Drizzle Cake"
+      description: "Light, zesty, and utterly irresistible — this buttery cake is soaked in a tangy lemon glaze that adds just the right zing. Sunshine, but in slice form! 🍋✨"
+      price: "₹ 200"
+      quantity: "225 gms"
+      type: "veg"
+      allergens: ["dairy"]
+      image: "/assets/images/lemondrizzlecakesprinkle.jpg"
+    
+    - name: "Banana Choco Chunk Muffins"
+      description: "Fudgy, gooey, and loaded with banana, chunky chocolate bites — this muffin doesn’t mess around. It’s rich, intense, and unapologetically indulgent. 🍫💥"
+      price: "₹ 130"
+      quantity: "1 Piece (115gms+)"
+      type: "veg"
+      allergens: ["dairy", "gluten"]
+      image: "/assets/images/bananachocolatemuffin.jpg"
+
+    - name: "Vanilla Choco Chunk Muffins"
+      description: "Fudgy, gooey, and loaded with chunky chocolate bites — these vanilla Muffins doesn’t mess around. It’s rich, intense, and unapologetically indulgent. 🍫💥"
+      price: "₹ 125"
+      quantity: "1 Piece (115gms+)"
+      type: "veg"
+      allergens: ["dairy", "gluten"]
+      image: "assets/images/vanillachocolatemuffins.jpg"
+
+    - name: "Coconut Chocolate Cookies"
+      description: "Crispy edges, chewy centers, and a tropical-choco twist! These cookies blend toasted coconut with melty chocolate chunks for a bite that's both cozy and exotic. 🥥🍫"
+      price: "₹ 130"
+      quantity: "100 gms"
+      type: "egg"
+      allergens: ["dairy", "gluten"]
+      image: "/assets/images/coconutchocolatecookie.jpg"
+    
     - name: "Choco Chunk Cookies"
       description: "Golden, chewy, and generously studded with big, melty chocolate chunks — these cookies are your ultimate pick-me-up with every bite. Classic, but with a chunky twist! 🍪🍫"
       price: "₹ 130"
@@ -41,6 +91,41 @@ items:
       allergens: ["dairy", "gluten"]
       image: "/assets/images/chocochunkcookie.png"
 
+  nonveg-solo:
+    - name: "Keema Paav"
+      description: "Spicy minced meat simmered to perfection, served with buttery toasted pav — this Mumbai-style classic is bold, comforting, and made for messy, satisfying bites. 🍖🍞🔥"
+      price: "₹ 435"
+      quantity: "2 Paav & 150 gms Keema masala"
+      type: "non-veg"
+      allergens: ["gluten"]
+      image: "/assets/images/keemapaav.jpg"
+
+    - name: "Mutton Shami Kebab"
+      description: "Juicy, spiced minced mutton shaped into melt-in-the-mouth kebabs — smoky, aromatic, and perfect for when you crave something bold and meaty.🔥🥩✨. Served with fresh mint and curd dip"
+      price: "₹ 210"
+      quantity: "2 Pieces (50gms each)"
+      type: "non-veg"
+      allergens: ["None"]
+      image: "/assets/images/muttonkeemakebab.jpg"
+    
+  beverages:
+    - name: "Aam Panna"
+      description: "Summer in a glass! This tangy-sweet cooler made from raw mangoes is spiked with cumin, mint, and just the right sass. Hydrating, refreshing, and totally aam-azing!"
+      price: "₹ 75"
+      quantity: "300 ml"
+      type: "veg"
+      allergens: ["None"]
+      image: "/assets/images/aampanna.jpg"
+  
+  subscription:
+    - name: "Almond biscotti"
+      description: "Twice-baked, golden crisp, and delightfully nutty — these Italian biscottis/ are packed with toasted almonds and made for dunking in your coffee or chai. Classy, crunchy, and totally addictive! ☕🌰"
+      price: "₹ 130"
+      quantity: "110 grams"
+      type: "veg"
+      allergens: ["Gluten", "Nuts"]
+      image: "/assets/images/Amond Biscotti.JPG"
+
     - name: "Lemon Almond biscotti"
       description: "Twice-baked, golden crisp, and delightfully nutty — these Italian biscottis are packed with toasted almonds and nd a zesty lemon twist, made for dunking in your coffee or chai. Classy, crunchy, and totally addictive! ☕🌰"
       price: "₹ 145"
@@ -48,6 +133,14 @@ items:
       type: "veg"
       allergens: ["Gluten", "Nuts"]
       image: "/assets/images/Lemon Almond Biscotti.JPG"
+
+    - name: "Lemon biscotti"
+      description: "Twice-baked and golden crisp with a bright, zesty lemon twist — these Italian biscottis are light, citrusy, and perfect for dunking in your coffee or chai. Elegant, crunchy, and utterly addictive! ☕🍋"
+      price: "₹ 115"
+      quantity: "110 grams"
+      type: "veg"
+      allergens: ["Gluten"]
+      image: "/assets/images/Lemon Biscotti.JPG"
 
     - name: "Cranberry Almond Biscotti"
       description: "Twice-baked, golden crisp, and deliciously nutty — these Italian biscottis are dotted with tangy cranberries and crunchy almonds, made for dunking in your coffee or chai. Classy, crunchy, and totally addictive! ☕🌰🍒"
