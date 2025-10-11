@@ -14,7 +14,7 @@ title: Menu
     {% for item in category_items %}
     <div class="menu-item">
         <div class="item-left">
-            <img src="{{ item.image | relative_url }}" alt="{{ item.name }}" class="item-image" onclick="openModal('{{ item.image | relative_url }}', '{{ item.name }}')" data-image="{{ item.image | relative_url }}" data-name="{{ item.name }}">
+            <img src="{{ item.image | relative_url }}" alt="{{ item.name }}" class="item-image" onclick="openModal('{{ item.image | relative_url }}', '{{ item.name }}')" data-image="{{ item.image | relative_url }}" data-name="{{ item.name }}" loading="lazy" decoding="async">
             <div class="item-details">
                 <div class="item-header">
                     <h3 class="item-name">{{ item.name }}</h3>
@@ -40,7 +40,6 @@ title: Menu
                             <span class="allergen-info">Contains: {{ item.allergens | join: ', ' }}</span>
                         {% endif %}
                     </div>
-                    <span class="item-quantity">{{ item.quantity }}</span>
                 </div>
             </div>
         </div>

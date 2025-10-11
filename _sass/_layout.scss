@@ -11,9 +11,19 @@ body {
   background-color: $cream;
   padding-top: 80px; // Account for fixed header height
 
+  // Smooth scrolling optimizations
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   @media (max-width: $mobile) {
     padding-top: 120px; // More padding on mobile due to stacked nav
   }
+}
+
+html {
+  scroll-behavior: smooth;
+  // Prevent white flashing during scroll
+  background-color: $cream;
 }
 
 .top-nav {
@@ -25,6 +35,13 @@ body {
   right: 0;
   width: 100%;
   z-index: 1000;
+
+  // Performance optimizations for smooth scrolling
+  will-change: transform;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 
   .top-nav-container {
     max-width: 1400px;
@@ -87,6 +104,9 @@ body {
   background-color: white;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   position: relative;
+
+  // Optimize rendering performance
+  will-change: contents;
 }
 
 .sidebar {
@@ -100,7 +120,15 @@ body {
   left: calc(50% - 700px);
   height: calc(100vh - 80px);
   overflow-y: auto;
-  
+
+  // Performance optimizations for smooth scrolling
+  will-change: transform;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-overflow-scrolling: touch; // Smooth scrolling on iOS
+
   @media (max-width: $mobile) {
     width: 100%;
     height: auto;
@@ -117,7 +145,10 @@ body {
   margin-left: 35%;
   padding: $spacing-xl;
   overflow-y: auto;
-  
+
+  // Performance optimization
+  contain: layout style paint;
+
   @media (max-width: $mobile) {
     width: 100%;
     margin-left: 0;
@@ -180,14 +211,18 @@ body {
 
 .menu-section {
   margin-bottom: $spacing-xl;
-  
+
+  // Improve rendering performance
+  contain: layout style paint;
+  content-visibility: auto;
+
   .section-title {
     font-size: 2.2rem;
     color: $primary-green;
     margin-bottom: $spacing-sm;
     text-align: center;
     position: relative;
-    
+
     &:after {
       content: '';
       display: block;
@@ -197,7 +232,7 @@ body {
       margin: $spacing-sm auto;
     }
   }
-  
+
   .section-description {
     font-family: $font-family-accent;
     font-size: 1.1rem;
@@ -238,8 +273,15 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     flex-shrink: 0;
 
+    // Image rendering optimizations
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+
     &:hover {
-      transform: scale(1.05);
+      transform: scale(1.05) translateZ(0);
       box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
     }
 
@@ -313,14 +355,6 @@ body {
           font-style: italic;
           color: #dc2626;
         }
-      }
-
-      .item-quantity {
-        font-size: 0.9rem;
-        color: $muted-gray;
-        font-style: italic;
-        white-space: nowrap;
-        margin-left: $spacing-sm;
       }
     }
   }
