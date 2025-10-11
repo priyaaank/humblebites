@@ -2,9 +2,15 @@ categories:
   - name: "Biscottis"
     slug: "fresh-biscottis"
     description: "Freshly baked Italian biscuits, perfect for dunking in your coffee or tea"
-  - name: "Fresh Bakes & Desserts"
-    slug: "fresh-bakes-desserts"
-    description: "Freshly baked treats and sweet indulgences made with love"
+  - name: "Muffins"
+    slug: "muffins"
+    description: "Moist and flavorful muffins packed with delicious ingredients"
+  - name: "Cookies"
+    slug: "cookies"
+    description: "Crispy, chewy, and utterly addictive cookies for every craving"
+  - name: "Cakes"
+    slug: "cakes"
+    description: "Classic tea cakes perfect for your afternoon tea or coffee break"
   - name: "Snacks"
     slug: "snacks"
     description: "Street-style favorites and traditional bites to kickstart your meal"
@@ -43,18 +49,9 @@ items:
       allergens: ["nuts"]
       image: "/assets/images/dabeli.jpg"
 
-  fresh-bakes-desserts:
-    
-    - name: "Lemon Drizzle Cake"
-      description: "Light, zesty, and utterly irresistible — this buttery cake is soaked in a tangy lemon glaze that adds just the right zing. Sunshine, but in slice form! 🍋✨"
-      price: "₹ 200"
-      quantity: "225 gms"
-      type: "veg"
-      allergens: ["dairy"]
-      image: "/assets/images/lemondrizzlecakesprinkle.jpg"
-    
+  muffins:
     - name: "Banana Choco Chunk Muffins"
-      description: "Fudgy, gooey, and loaded with banana, chunky chocolate bites — this muffin doesn’t mess around. It’s rich, intense, and unapologetically indulgent. 🍫💥"
+      description: "Fudgy, gooey, and loaded with banana, chunky chocolate bites — this muffin doesn't mess around. It's rich, intense, and unapologetically indulgent. 🍫💥"
       price: "₹ 130"
       quantity: "1 Piece (115gms+)"
       type: "veg"
@@ -62,13 +59,14 @@ items:
       image: "/assets/images/bananachocolatemuffin.jpg"
 
     - name: "Vanilla Choco Chunk Muffins"
-      description: "Fudgy, gooey, and loaded with chunky chocolate bites — these vanilla Muffins doesn’t mess around. It’s rich, intense, and unapologetically indulgent. 🍫💥"
+      description: "Fudgy, gooey, and loaded with chunky chocolate bites — these vanilla Muffins doesn't mess around. It's rich, intense, and unapologetically indulgent. 🍫💥"
       price: "₹ 125"
       quantity: "1 Piece (115gms+)"
       type: "veg"
       allergens: ["dairy", "gluten"]
       image: "assets/images/vanillachocolatemuffins.jpg"
 
+  cookies:
     - name: "Coconut Chocolate Cookies"
       description: "Crispy edges, chewy centers, and a tropical-choco twist! These cookies blend toasted coconut with melty chocolate chunks for a bite that's both cozy and exotic. 🥥🍫"
       price: "₹ 130"
@@ -76,7 +74,7 @@ items:
       type: "egg"
       allergens: ["dairy", "gluten"]
       image: "/assets/images/coconutchocolatecookie.jpg"
-    
+
     - name: "Choco Chunk Cookies"
       description: "Golden, chewy, and generously studded with big, melty chocolate chunks — these cookies are your ultimate pick-me-up with every bite. Classic, but with a chunky twist! 🍪🍫"
       price: "₹ 130"
@@ -84,6 +82,15 @@ items:
       type: "egg"
       allergens: ["dairy", "gluten"]
       image: "/assets/images/chocochunkcookie.png"
+
+  cakes:
+    - name: "Lemon Drizzle Cake"
+      description: "Light, zesty, and utterly irresistible — this buttery cake is soaked in a tangy lemon glaze that adds just the right zing. Sunshine, but in slice form! 🍋✨"
+      price: "₹ 200"
+      quantity: "225 gms"
+      type: "veg"
+      allergens: ["dairy"]
+      image: "/assets/images/lemondrizzlecakesprinkle.jpg"
 
   fresh-biscottis:
 

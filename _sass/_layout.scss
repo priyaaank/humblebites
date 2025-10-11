@@ -70,11 +70,17 @@ html {
     list-style: none;
     gap: $spacing-lg;
     margin: 0;
-    
+    align-items: center;
+
     @media (max-width: $mobile) {
       gap: $spacing-md;
     }
-    
+
+    li {
+      display: flex;
+      align-items: center;
+    }
+
     .nav-link {
       color: $cream;
       text-decoration: none;
@@ -83,15 +89,33 @@ html {
       padding: $spacing-sm $spacing-md;
       border-radius: 25px;
       transition: all 0.3s ease;
-      
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
       &:hover {
         background-color: rgba(255,255,255,0.1);
       }
-      
+
       &.active {
         background-color: $sage-green;
         color: $primary-green;
         font-weight: 600;
+      }
+
+      &.social-icon {
+        padding: $spacing-sm;
+
+        img {
+          display: block;
+          filter: brightness(0) invert(1);
+          transition: all 0.3s ease;
+        }
+
+        &:hover img {
+          transform: scale(1.1);
+          filter: brightness(0) invert(1) drop-shadow(0 0 8px rgba(255,255,255,0.5));
+        }
       }
     }
   }
