@@ -27,31 +27,33 @@
         </div>
     </nav>
     
-    <div class="container">
-        <aside class="sidebar">
-            <div class="menu-logo-section">
-                <img src="{{ '/assets/images/sitelogo.png' | relative_url }}" alt="{{ site.title }} Logo" class="menu-logo">
-            </div>
-            
-            {% if page.url == '/' %}
-            <nav class="category-nav">
-                <h3 class="nav-title">Menu Categories</h3>
-                <ul>
-                    {% for category in site.data.menu.categories %}
-                    <li>
-                        <a href="#{{ category.slug }}" data-category="{{ category.slug }}">
-                            {{ category.name }}
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </nav>
-            {% endif %}
-        </aside>
-        
-        <main class="main-content">
-            {{ content }}
-        </main>
+    <div class="page-wrapper">
+        <div class="container">
+            <aside class="sidebar">
+                <div class="menu-logo-section">
+                    <img src="{{ '/assets/images/sitelogo.png' | relative_url }}" alt="{{ site.title }} Logo" class="menu-logo">
+                </div>
+
+                {% if page.url == '/' %}
+                <nav class="category-nav">
+                    <h3 class="nav-title">Menu Categories</h3>
+                    <ul>
+                        {% for category in site.data.menu.categories %}
+                        <li>
+                            <a href="#{{ category.slug }}" data-category="{{ category.slug }}">
+                                {{ category.name }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+                {% endif %}
+            </aside>
+
+            <main class="main-content">
+                {{ content }}
+            </main>
+        </div>
     </div>
     
     <!-- Image Popup Modal -->
@@ -62,7 +64,61 @@
             <div id="modalCaption"></div>
         </div>
     </div>
-    
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3 class="footer-title">{{ site.title }}</h3>
+                <p class="footer-tagline">{{ site.description }}</p>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="{{ '/' | relative_url }}">Menu</a></li>
+                    <li><a href="{{ '/story.html' | relative_url }}">Story</a></li>
+                    <li><a href="{{ '/chef.html' | relative_url }}">Chef</a></li>
+                    <li><a href="{{ '/faq.html' | relative_url }}">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-heading">Contact Us</h4>
+                <ul class="footer-contact">
+                    <li>
+                        <span class="contact-label">Phone:</span>
+                        <a href="tel:+919545966155">+91 95459 66155</a>
+                    </li>
+                    <li>
+                        <span class="contact-label">Email:</span>
+                        <a href="mailto:support@humblebites.in">support@humblebites.in</a>
+                    </li>
+                    <li>
+                        <span class="contact-label">WhatsApp:</span>
+                        <a href="https://wa.me/919545966155" target="_blank" rel="noopener noreferrer">Chat with us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-heading">Follow Us</h4>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/humblebites.in" target="_blank" rel="noopener noreferrer" class="social-link" title="Instagram">
+                        <img src="{{ '/assets/images/instagram-icon.svg' | relative_url }}" alt="Instagram" width="32" height="32">
+                    </a>
+                    <a href="https://wa.me/919545966155" target="_blank" rel="noopener noreferrer" class="social-link" title="WhatsApp">
+                        <img src="{{ '/assets/images/whatsapp-icon.svg' | relative_url }}" alt="WhatsApp" width="32" height="32">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+        </div>
+    </footer>
+
     <script src="{{ '/assets/js/menu.js' | relative_url }}"></script>
 </body>
 </html>

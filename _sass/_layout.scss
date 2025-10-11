@@ -73,7 +73,9 @@ html {
     align-items: center;
 
     @media (max-width: $mobile) {
-      gap: $spacing-md;
+      gap: $spacing-xs;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     li {
@@ -93,6 +95,11 @@ html {
       align-items: center;
       justify-content: center;
 
+      @media (max-width: $mobile) {
+        font-size: 0.95rem;
+        padding: $spacing-xs $spacing-sm;
+      }
+
       &:hover {
         background-color: rgba(255,255,255,0.1);
       }
@@ -106,10 +113,19 @@ html {
       &.social-icon {
         padding: $spacing-sm;
 
+        @media (max-width: $mobile) {
+          padding: $spacing-xs;
+        }
+
         img {
           display: block;
           filter: brightness(0) invert(1);
           transition: all 0.3s ease;
+
+          @media (max-width: $mobile) {
+            width: 20px;
+            height: 20px;
+          }
         }
 
         &:hover img {
@@ -121,13 +137,18 @@ html {
   }
 }
 
-.container {
+.page-wrapper {
   min-height: calc(100vh - 80px);
+  position: relative;
+}
+
+.container {
   max-width: 1400px;
   margin: 0 auto;
   background-color: white;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   position: relative;
+  min-height: calc(100vh - 80px);
 
   // Optimize rendering performance
   will-change: contents;
@@ -508,7 +529,7 @@ html {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9);
-  
+
   .modal-content {
     position: relative;
     margin: auto;
@@ -518,7 +539,7 @@ html {
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    
+
     #modalImage {
       width: 100%;
       height: auto;
@@ -527,7 +548,7 @@ html {
       border-radius: 8px;
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
     }
-    
+
     #modalCaption {
       color: $cream;
       font-size: 1.2rem;
@@ -535,7 +556,7 @@ html {
       font-family: $font-family-accent;
     }
   }
-  
+
   .close {
     position: absolute;
     top: 15px;
@@ -545,11 +566,166 @@ html {
     font-weight: bold;
     cursor: pointer;
     z-index: 2001;
-    
+
     &:hover,
     &:focus {
       color: $sage-green;
       text-decoration: none;
+    }
+  }
+}
+
+// Footer Styles
+.site-footer {
+  background-color: $primary-green;
+  color: $cream;
+  padding: $spacing-xl 0;
+  width: 100%;
+  clear: both;
+  position: relative;
+  z-index: 10;
+  display: none; // Hidden on desktop by default
+
+  @media (max-width: $mobile) {
+    display: block; // Show only on mobile
+  }
+
+  .footer-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 $spacing-xl;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: $spacing-xl;
+
+    @media (max-width: $mobile) {
+      grid-template-columns: 1fr;
+      gap: $spacing-lg;
+      padding: 0 $spacing-md;
+    }
+  }
+
+  .footer-section {
+    .footer-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: $cream;
+      margin-bottom: $spacing-sm;
+    }
+
+    .footer-tagline {
+      font-family: $font-family-accent;
+      font-style: italic;
+      color: rgba($cream, 0.9);
+      line-height: 1.6;
+    }
+
+    .footer-heading {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: $sage-green;
+      margin-bottom: $spacing-md;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-bottom: $spacing-sm;
+
+        a {
+          color: $cream;
+          text-decoration: none;
+          transition: all 0.3s ease;
+          display: inline-block;
+
+          &:hover {
+            color: $sage-green;
+            padding-left: $spacing-xs;
+          }
+        }
+      }
+    }
+
+    .footer-contact {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-bottom: $spacing-sm;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        .contact-label {
+          font-size: 0.85rem;
+          color: $sage-green;
+          font-weight: 600;
+        }
+
+        a {
+          color: $cream;
+          text-decoration: none;
+          transition: all 0.3s ease;
+
+          &:hover {
+            color: $sage-green;
+          }
+        }
+      }
+    }
+
+    .footer-social {
+      display: flex;
+      gap: $spacing-md;
+
+      .social-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        background-color: rgba($cream, 0.1);
+        border-radius: 50%;
+        transition: all 0.3s ease;
+
+        img {
+          filter: brightness(0) invert(1);
+          transition: all 0.3s ease;
+        }
+
+        &:hover {
+          background-color: $sage-green;
+          transform: translateY(-4px);
+
+          img {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: $spacing-lg $spacing-xl 0;
+    margin-top: $spacing-lg;
+    border-top: 1px solid rgba($cream, 0.2);
+    text-align: center;
+
+    @media (max-width: $mobile) {
+      padding: $spacing-lg $spacing-md 0;
+    }
+
+    p {
+      color: rgba($cream, 0.8);
+      font-size: 0.9rem;
     }
   }
 }
