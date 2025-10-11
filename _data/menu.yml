@@ -1,22 +1,16 @@
 categories:
-  - name: "Appetizers"
-    slug: "appetizers"
-    description: "Street-style favorites and traditional bites to kickstart your meal"
-  - name: "Bakes n Desserts"
-    slug: "bakes-desserts"
+  - name: "Biscottis"
+    slug: "fresh-biscottis"
+    description: "Freshly baked Italian biscuits, perfect for dunking in your coffee or tea"
+  - name: "Fresh Bakes & Desserts"
+    slug: "fresh-bakes-desserts"
     description: "Freshly baked treats and sweet indulgences made with love"
-  - name: "Beverages & Coolers (Seasonal)"
-    slug: "beverages"
-    description: "Refreshing drinks to beat the heat and quench your thirst"
-  - name: "Non-Veggie Solo"
-    slug: "nonveg-solo"
-    description: "Hearty meat dishes for those who crave bold, savory flavors"
-  - name: "Subscription Menu"
-    slug: "subscription"
-    description: "Artisanal food that you can subscribe to be delivered at specific frequency"
+  - name: "Snacks"
+    slug: "snacks"
+    description: "Street-style favorites and traditional bites to kickstart your meal"
 
 items:
-  appetizers:
+  snacks:
     - name: "Vada Paav"
       description: "Mumbai’s iconic food, a spicy potato fritter hugged by a pav (bun), with fiery garlic chutneys and a green chili on the side. Bold, messy, and absolutely addictive"
       price: "₹ 75"
@@ -49,7 +43,7 @@ items:
       allergens: ["nuts"]
       image: "/assets/images/dabeli.jpg"
 
-  bakes-desserts:
+  fresh-bakes-desserts:
     
     - name: "Lemon Drizzle Cake"
       description: "Light, zesty, and utterly irresistible — this buttery cake is soaked in a tangy lemon glaze that adds just the right zing. Sunshine, but in slice form! 🍋✨"
@@ -91,33 +85,8 @@ items:
       allergens: ["dairy", "gluten"]
       image: "/assets/images/chocochunkcookie.png"
 
-  nonveg-solo:
-    - name: "Keema Paav"
-      description: "Spicy minced meat simmered to perfection, served with buttery toasted pav — this Mumbai-style classic is bold, comforting, and made for messy, satisfying bites. 🍖🍞🔥"
-      price: "₹ 435"
-      quantity: "2 Paav & 150 gms Keema masala"
-      type: "non-veg"
-      allergens: ["gluten"]
-      image: "/assets/images/keemapaav.jpg"
+  fresh-biscottis:
 
-    - name: "Mutton Shami Kebab"
-      description: "Juicy, spiced minced mutton shaped into melt-in-the-mouth kebabs — smoky, aromatic, and perfect for when you crave something bold and meaty.🔥🥩✨. Served with fresh mint and curd dip"
-      price: "₹ 210"
-      quantity: "2 Pieces (50gms each)"
-      type: "non-veg"
-      allergens: ["None"]
-      image: "/assets/images/muttonkeemakebab.jpg"
-    
-  beverages:
-    - name: "Aam Panna"
-      description: "Summer in a glass! This tangy-sweet cooler made from raw mangoes is spiked with cumin, mint, and just the right sass. Hydrating, refreshing, and totally aam-azing!"
-      price: "₹ 75"
-      quantity: "300 ml"
-      type: "veg"
-      allergens: ["None"]
-      image: "/assets/images/aampanna.jpg"
-  
-  subscription:
     - name: "Almond biscotti"
       description: "Twice-baked, golden crisp, and delightfully nutty — these Italian biscottis/ are packed with toasted almonds and made for dunking in your coffee or chai. Classy, crunchy, and totally addictive! ☕🌰"
       price: "₹ 130"
