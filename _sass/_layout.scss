@@ -9,15 +9,23 @@ body {
   line-height: 1.6;
   color: $primary-green;
   background-color: $cream;
+  padding-top: 80px; // Account for fixed header height
+
+  @media (max-width: $mobile) {
+    padding-top: 120px; // More padding on mobile due to stacked nav
+  }
 }
 
 .top-nav {
   background-color: $primary-green;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
   z-index: 1000;
-  
+
   .top-nav-container {
     max-width: 1400px;
     margin: 0 auto;
@@ -25,7 +33,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
     @media (max-width: $mobile) {
       flex-direction: column;
       padding: $spacing-md;
@@ -205,44 +213,51 @@ body {
 
 .menu-item {
   display: flex;
+  gap: $spacing-md;
   margin-bottom: $spacing-lg;
   padding-bottom: $spacing-lg;
   border-bottom: 1px solid rgba(164, 172, 141, 0.2);
-  
+
   &:last-child {
     border-bottom: none;
   }
-  
+
+  .item-left {
+    display: flex;
+    flex: 1;
+    gap: $spacing-md;
+  }
+
   .item-image {
     width: 120px;
     height: 120px;
     border-radius: 8px;
     object-fit: cover;
-    margin-right: $spacing-md;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    
+    flex-shrink: 0;
+
     &:hover {
       transform: scale(1.05);
       box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
     }
-    
+
     @media (max-width: $mobile) {
       width: 80px;
       height: 80px;
     }
   }
-  
+
   .item-details {
     flex: 1;
-    
+
     .item-header {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
       margin-bottom: $spacing-xs;
-      
+
       .item-name {
         font-size: 1.4rem;
         color: $primary-green;
@@ -250,23 +265,28 @@ body {
         margin: 0;
         flex: 1;
       }
-      
-      .item-price {
+
+      .item-price-mobile {
         font-size: 1.5rem;
         color: $sage-green;
         font-weight: 700;
         margin-left: $spacing-md;
         white-space: nowrap;
+        display: none;
+
+        @media (max-width: $mobile) {
+          display: block;
+        }
       }
     }
-    
+
     .item-description {
       font-family: $font-family-accent;
       color: $muted-gray;
       margin-bottom: $spacing-sm;
       line-height: 1.5;
     }
-    
+
     .item-info {
       display: flex;
       justify-content: space-between;
@@ -274,27 +294,27 @@ body {
       margin-top: $spacing-sm;
       flex-wrap: wrap;
       gap: $spacing-xs;
-      
+
       .item-meta {
         flex: 1;
         font-size: 0.9rem;
         color: $muted-gray;
-        
+
         .diet-info {
           font-weight: 600;
           color: $primary-green;
         }
-        
+
         .allergen-divider {
           color: $muted-gray;
         }
-        
+
         .allergen-info {
           font-style: italic;
           color: #dc2626;
         }
       }
-      
+
       .item-quantity {
         font-size: 0.9rem;
         color: $muted-gray;
@@ -304,19 +324,118 @@ body {
       }
     }
   }
+
+  // Order Box Styles
+  .item-order-box {
+    width: 160px;
+    flex-shrink: 0;
+
+    @media (max-width: $mobile) {
+      display: none;
+    }
+
+    .order-box-content {
+      border: 2px solid $sage-green;
+      border-radius: 10px;
+      padding: $spacing-md;
+      background-color: rgba(241, 222, 186, 0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: $spacing-xs;
+      position: sticky;
+      top: 100px;
+
+      .order-price {
+        font-size: 1.6rem;
+        color: $primary-green;
+        font-weight: 700;
+      }
+
+      .order-quantity-label {
+        font-size: 0.85rem;
+        color: $muted-gray;
+        text-align: center;
+        font-style: italic;
+        margin-bottom: $spacing-xs;
+      }
+
+      .order-now-btn {
+        width: 100%;
+        padding: $spacing-sm $spacing-md;
+        background-color: $primary-green;
+        color: $cream;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+        &:hover {
+          background-color: darken($primary-green, 5%);
+          transform: translateY(-2px);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        &:active {
+          transform: translateY(0);
+        }
+      }
+    }
+  }
+}
+
+// Mobile Order Button (shows only on mobile)
+.mobile-order-section {
+  display: none;
+  margin-top: $spacing-md;
+  padding-top: $spacing-md;
+  border-top: 1px solid rgba(164, 172, 141, 0.2);
+
+  @media (max-width: $mobile) {
+    display: flex;
+    justify-content: center;
+
+    .mobile-order-btn {
+      width: 100%;
+      padding: $spacing-md;
+      background-color: $primary-green;
+      color: $cream;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+      &:active {
+        background-color: darken($primary-green, 5%);
+        transform: scale(0.98);
+      }
+    }
+  }
 }
 
 @media (max-width: $mobile) {
   .container {
     flex-direction: column;
   }
-  
+
   .menu-item {
     flex-direction: column;
-    text-align: center;
-    
-    .item-image {
-      margin: 0 auto $spacing-sm auto;
+
+    .item-left {
+      flex-direction: column;
+
+      .item-image {
+        width: 100%;
+        height: 200px;
+        margin-bottom: $spacing-sm;
+      }
     }
   }
 }

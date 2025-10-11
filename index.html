@@ -13,34 +13,50 @@ title: Menu
     {% assign category_items = site.data.menu.items[category.slug] %}
     {% for item in category_items %}
     <div class="menu-item">
-        <img src="{{ item.image | relative_url }}" alt="{{ item.name }}" class="item-image" onclick="openModal('{{ item.image | relative_url }}', '{{ item.name }}')" data-image="{{ item.image | relative_url }}" data-name="{{ item.name }}">
-        <div class="item-details">
-            <div class="item-header">
-                <h3 class="item-name">{{ item.name }}</h3>
-                <span class="item-price">{{ item.price }}</span>
-            </div>
-            <p class="item-description">{{ item.description }}</p>
-            <div class="item-info">
-                <div class="item-meta">
-                    {% assign meta_items = "" | split: "" %}
-                    {% if item.type == "veg" %}
-                        {% assign meta_items = meta_items | push: "Veg" %}
-                    {% elsif item.type == "non-veg" %}
-                        {% assign meta_items = meta_items | push: "Non-Veg" %}
-                    {% endif %}
-                    {% if item.allergens contains "eggs" %}
-                        {% assign meta_items = meta_items | push: "Eggs" %}
-                    {% endif %}
-                    {% if meta_items.size > 0 %}
-                        <span class="diet-info">{{ meta_items | join: ", " }}</span>
-                    {% endif %}
-                    {% if item.allergens and item.allergens.size > 0 %}
-                        <span class="allergen-divider"> • </span>
-                        <span class="allergen-info">Contains: {{ item.allergens | join: ', ' }}</span>
-                    {% endif %}
+        <div class="item-left">
+            <img src="{{ item.image | relative_url }}" alt="{{ item.name }}" class="item-image" onclick="openModal('{{ item.image | relative_url }}', '{{ item.name }}')" data-image="{{ item.image | relative_url }}" data-name="{{ item.name }}">
+            <div class="item-details">
+                <div class="item-header">
+                    <h3 class="item-name">{{ item.name }}</h3>
+                    <span class="item-price-mobile">{{ item.price }}</span>
                 </div>
-                <span class="item-quantity">{{ item.quantity }}</span>
+                <p class="item-description">{{ item.description }}</p>
+                <div class="item-info">
+                    <div class="item-meta">
+                        {% assign meta_items = "" | split: "" %}
+                        {% if item.type == "veg" %}
+                            {% assign meta_items = meta_items | push: "Veg" %}
+                        {% elsif item.type == "non-veg" %}
+                            {% assign meta_items = meta_items | push: "Non-Veg" %}
+                        {% endif %}
+                        {% if item.allergens contains "eggs" %}
+                            {% assign meta_items = meta_items | push: "Eggs" %}
+                        {% endif %}
+                        {% if meta_items.size > 0 %}
+                            <span class="diet-info">{{ meta_items | join: ", " }}</span>
+                        {% endif %}
+                        {% if item.allergens and item.allergens.size > 0 %}
+                            <span class="allergen-divider"> • </span>
+                            <span class="allergen-info">Contains: {{ item.allergens | join: ', ' }}</span>
+                        {% endif %}
+                    </div>
+                    <span class="item-quantity">{{ item.quantity }}</span>
+                </div>
             </div>
+        </div>
+        <div class="item-order-box">
+            <div class="order-box-content">
+                <div class="order-price">{{ item.price }}</div>
+                <div class="order-quantity-label">{{ item.quantity }}</div>
+                <button class="order-now-btn" onclick="orderViaWhatsApp('{{ item.name }}', '{{ item.price }}', '{{ item.quantity }}')">
+                    Order
+                </button>
+            </div>
+        </div>
+        <div class="mobile-order-section">
+            <button class="mobile-order-btn" onclick="orderViaWhatsApp('{{ item.name }}', '{{ item.price }}', '{{ item.quantity }}')">
+                Order Now via WhatsApp
+            </button>
         </div>
     </div>
     {% endfor %}

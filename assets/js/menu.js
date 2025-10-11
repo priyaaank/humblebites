@@ -146,3 +146,21 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+// WhatsApp Order Function
+function orderViaWhatsApp(itemName, itemPrice, itemQuantity) {
+    // WhatsApp phone number (Indian format)
+    const phoneNumber = '919545966155';
+
+    // Create the order message
+    const message = `Hello! I would like to order:\n\n*${itemName}*\nPrice: ${itemPrice}\nQuantity: ${itemQuantity}\n\nPlease confirm availability and delivery details.`;
+
+    // Encode the message for URL
+    const encodedMessage = encodeURIComponent(message);
+
+    // Create WhatsApp URL (works on both mobile and web)
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+    // Open WhatsApp in a new window/tab
+    window.open(whatsappUrl, '_blank');
+}
