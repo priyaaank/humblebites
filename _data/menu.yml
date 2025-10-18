@@ -94,7 +94,7 @@ items:
 
   fresh-biscottis:
 
-    - name: "Almond biscotti"
+    - name: "Almond Biscotti"
       description: "Twice-baked, golden crisp, and delightfully nutty — these Italian biscottis/ are packed with toasted almonds and made for dunking in your coffee or chai. Classy, crunchy, and totally addictive! ☕🌰"
       price: "₹ 130"
       quantity: "110 grams"
@@ -102,6 +102,14 @@ items:
       allergens: ["Gluten", "Nuts"]
       image: "/assets/images/Amond Biscotti.JPG"
 
+    - name: "Coffee Almond Pecan Biscotti"
+      description: "Where coffee meets crunch. Aromatic, nutty, and irresistibly balanced — this biscotti is your espresso’s new soulmate"
+      price: "₹ 145"
+      quantity: "110 grams"
+      type: "veg"
+      allergens: ["Gluten", "Nuts"]
+      image: "/assets/images/coffeepecanalmond.jpg"
+    
     - name: "Lemon Almond biscotti"
       description: "Twice-baked, golden crisp, and delightfully nutty — these Italian biscottis are packed with toasted almonds and nd a zesty lemon twist, made for dunking in your coffee or chai. Classy, crunchy, and totally addictive! ☕🌰"
       price: "₹ 145"
@@ -109,15 +117,7 @@ items:
       type: "veg"
       allergens: ["Gluten", "Nuts"]
       image: "/assets/images/Lemon Almond Biscotti.JPG"
-
-    - name: "Lemon biscotti"
-      description: "Twice-baked and golden crisp with a bright, zesty lemon twist — these Italian biscottis are light, citrusy, and perfect for dunking in your coffee or chai. Elegant, crunchy, and utterly addictive! ☕🍋"
-      price: "₹ 115"
-      quantity: "110 grams"
-      type: "veg"
-      allergens: ["Gluten"]
-      image: "/assets/images/Lemon Biscotti.JPG"
-
+    
     - name: "Cranberry Almond Biscotti"
       description: "Twice-baked, golden crisp, and deliciously nutty — these Italian biscottis are dotted with tangy cranberries and crunchy almonds, made for dunking in your coffee or chai. Classy, crunchy, and totally addictive! ☕🌰🍒"
       price: "₹ 185"
@@ -125,5 +125,43 @@ items:
       type: "veg"
       allergens: ["Gluten","nuts"]
       image: "/assets/images/biscotti.jpg"
-      
-   
+
+    - name: "Chocolate Biscotti"
+      description: "Deep, dark, and dangerously addictive. This one’s for true chocolate lovers — crisp at first bite, then melt-in-your-mouth magic. Perfect for when your coffee (and your soul) needs something bold. ☕✨"
+      price: "₹ 145"
+      quantity: "110 grams"
+      type: "veg"
+      allergens: ["Gluten", "Cocoa"]
+      image: "/assets/images/chocolate.jpg"
+
+    - name: "Zesty Fruit & Nuts Biscotti"
+      description: "Packed with fruits, nuts, and sunshine energy. This biscotti is a celebration in every crunchy bite."
+      price: "₹ 185"
+      quantity: "110 grams"
+      type: "veg"
+      allergens: ["Gluten", "Nuts"]
+      image: "/assets/images/zestyfruitandnut.jpg"
+
+    - name: "Orange Cranberry Biscotti"
+      description: "A zesty twist of orange with the tart sweetness of cranberries — bright, cheerful, and deliciously unforgettable."
+      price: "₹ 145"
+      quantity: "110 grams"
+      type: "veg"
+      allergens: ["Gluten", "Nuts", "Cranberry"]
+      image: "/assets/images/orangecranberry.jpg"
+
+    - name: "Lemon Biscotti"
+      description: "Twice-baked and golden crisp with a bright, zesty lemon twist — these Italian biscottis are light, citrusy, and perfect for dunking in your coffee or chai. Elegant, crunchy, and utterly addictive! ☕🍋"
+      price: "₹ 115"
+      quantity: "110 grams"
+      type: "veg"
+      allergens: ["Gluten"]
+      image: "/assets/images/Lemon Biscotti.JPG"
+    
+    - name: "Pistachio Biscotti"
+      description: "Elegant, nutty, and perfectly golden — this biscotti brings the delicate flavor of roasted pistachios to every crunchy bite. Subtle sweetness, rich texture, and pure sophistication in cookie form. 💚✨"
+      price: "₹ 145"
+      quantity: "110 grams"
+      type: "veg"
+      allergens: ["Gluten", "Nuts"]
+      image: "/assets/images/pistachio.jpg"
