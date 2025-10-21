@@ -66,6 +66,14 @@ items:
       allergens: ["dairy", "gluten"]
       image: "assets/images/vanillachocolatemuffins.jpg"
 
+    - name: "Chocolate Cranberry Muffins"
+      description: "Fudgy, gooey, and loaded with chunky chocolate bites — these chocolate Muffins doesn't mess around. It's rich, intense, and unapologetically indulgent. 🍫💥"
+      price: "₹ 125"
+      quantity: "1 Piece (115gms+)"
+      type: "veg"
+      allergens: ["dairy", "gluten"]
+      image: "assets/images/vanillachocolatemuffins.jpg"
+
   cookies:
     - name: "Coconut Chocolate Cookies"
       description: "Crispy edges, chewy centers, and a tropical-choco twist! These cookies blend toasted coconut with melty chocolate chunks for a bite that's both cozy and exotic. 🥥🍫"
@@ -91,6 +99,14 @@ items:
       type: "veg"
       allergens: ["dairy"]
       image: "/assets/images/lemondrizzlecakesprinkle.jpg"
+    
+    - name: "Mini Caramel Cheesecake"
+      description: "A pair of bite-sized indulgence with rich caramel and creamy cheesecake delight."
+      price: "₹ 175"
+      quantity: "2"
+      type: "veg"
+      allergens: ["dairy"]
+      image: "/assets/images/MiniCaramelCheesecake.jpg"
 
   fresh-biscottis:
 
@@ -126,7 +142,7 @@ items:
       allergens: ["Gluten","nuts"]
       image: "/assets/images/biscotti.jpg"
 
-    - name: "Chocolate Biscotti"
+    - name: "Chocolate Almond Biscotti"
       description: "Deep, dark, and dangerously addictive. This one’s for true chocolate lovers — crisp at first bite, then melt-in-your-mouth magic. Perfect for when your coffee (and your soul) needs something bold. ☕✨"
       price: "₹ 145"
       quantity: "110 grams"
