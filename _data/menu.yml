@@ -51,25 +51,25 @@ items:
 
   muffins:
     - name: "Banana Choco Chunk Muffins"
-      description: "Fudgy, gooey, and loaded with banana, chunky chocolate bites — this muffin doesn't mess around. It's rich, intense, and unapologetically indulgent. 🍫💥"
+      description: "Fudgy, gooey, and loaded with banana, couverture chunky chocolate bites — this muffin doesn't mess around. It's rich, intense, and unapologetically indulgent. 🍫💥"
       price: "₹ 130"
-      quantity: "1 Piece (115gms+)"
+      quantity: "1 Piece (approx 115gms)"
       type: "veg"
       allergens: ["dairy", "gluten"]
       image: "/assets/images/bananachocolatemuffin.jpg"
 
     - name: "Vanilla Choco Chunk Muffins"
-      description: "Fudgy, gooey, and loaded with chunky chocolate bites — these vanilla Muffins doesn't mess around. It's rich, intense, and unapologetically indulgent. 🍫💥"
+      description: "Fudgy, gooey, and loaded with couverture chunky chocolate bites — these vanilla Muffins doesn't mess around. It's rich, intense, and unapologetically indulgent. 🍫💥"
       price: "₹ 125"
-      quantity: "1 Piece (115gms+)"
+      quantity: "1 Piece (approx 115gms)"
       type: "veg"
       allergens: ["dairy", "gluten"]
       image: "assets/images/vanillachocolatemuffins.jpg"
 
     - name: "Chocolate Cranberry Muffins"
-      description: "Fudgy, gooey, and loaded with chunky chocolate bites — these chocolate Muffins doesn't mess around. It's rich, intense, and unapologetically indulgent. 🍫💥"
-      price: "₹ 125"
-      quantity: "1 Piece (115gms+)"
+      description: "Soft, rich muffins loaded with couverture chocolate chunks and tangy cranberries. It's rich, intense, and unapologetically indulgent. 🍫💥"
+      price: "₹ 135"
+      quantity: "1 Piece (approx 115gms)"
       type: "veg"
       allergens: ["dairy", "gluten"]
       image: "assets/images/vanillachocolatemuffins.jpg"
@@ -84,7 +84,7 @@ items:
       image: "/assets/images/coconutchocolatecookie.jpg"
 
     - name: "Choco Chunk Cookies"
-      description: "Golden, chewy, and generously studded with big, melty chocolate chunks — these cookies are your ultimate pick-me-up with every bite. Classic, but with a chunky twist! 🍪🍫"
+      description: "Golden, chewy, and generously studded with big, melty couverture chocolate chunks — these cookies are your ultimate pick-me-up with every bite. Classic, but with a chunky twist! 🍪🍫"
       price: "₹ 130"
       quantity: "105 gms"
       type: "egg"
@@ -103,10 +103,18 @@ items:
     - name: "Mini Caramel Cheesecake"
       description: "A pair of bite-sized indulgence with rich caramel and creamy cheesecake delight."
       price: "₹ 175"
-      quantity: "2"
+      quantity: "2 pcs"
       type: "veg"
       allergens: ["dairy"]
       image: "/assets/images/MiniCaramelCheesecake.jpg"
+
+    - name: "Mini GulabJamun Cheesecake"
+      description: "A fusion of classic Indian sweetness and creamy cheesecake perfection, comes in a set of 2"
+      price: "₹ 175"
+      quantity: "2 pcs"
+      type: "veg"
+      allergens: ["dairy"]
+      image: "/assets/images/MiniGulabJamunCheesecake.jpg"
 
   fresh-biscottis:
 
@@ -120,7 +128,7 @@ items:
 
     - name: "Coffee Almond Pecan Biscotti"
       description: "Where coffee meets crunch. Aromatic, nutty, and irresistibly balanced — this biscotti is your espresso’s new soulmate"
-      price: "₹ 145"
+      price: "₹ 165"
       quantity: "110 grams"
       type: "veg"
       allergens: ["Gluten", "Nuts"]
@@ -143,16 +151,16 @@ items:
       image: "/assets/images/biscotti.jpg"
 
     - name: "Chocolate Almond Biscotti"
-      description: "Deep, dark, and dangerously addictive. This one’s for true chocolate lovers — crisp at first bite, then melt-in-your-mouth magic. Perfect for when your coffee (and your soul) needs something bold. ☕✨"
-      price: "₹ 145"
+      description: "Deep, dark, and dangerously addictive. Rich chocolate and crunchy almonds baked to perfection. Perfect for when your coffee (and your soul) needs something bold. ☕✨"
+      price: "₹ 210"
       quantity: "110 grams"
       type: "veg"
       allergens: ["Gluten", "Cocoa"]
       image: "/assets/images/chocolate.jpg"
 
     - name: "Zesty Fruit & Nuts Biscotti"
-      description: "Packed with fruits, nuts, and sunshine energy. This biscotti is a celebration in every crunchy bite."
-      price: "₹ 185"
+      description: "Crunchy almonds and pistachios meet tangy cranberries and orange — a perfect accompaniment to your tea or coffee"
+      price: "₹ 235"
       quantity: "110 grams"
       type: "veg"
       allergens: ["Gluten", "Nuts"]
@@ -160,7 +168,7 @@ items:
 
     - name: "Orange Cranberry Biscotti"
       description: "A zesty twist of orange with the tart sweetness of cranberries — bright, cheerful, and deliciously unforgettable."
-      price: "₹ 145"
+      price: "₹ 150"
       quantity: "110 grams"
       type: "veg"
       allergens: ["Gluten", "Nuts", "Cranberry"]
@@ -175,8 +183,8 @@ items:
       image: "/assets/images/Lemon Biscotti.JPG"
     
     - name: "Pistachio Biscotti"
-      description: "Elegant, nutty, and perfectly golden — this biscotti brings the delicate flavor of roasted pistachios to every crunchy bite. Subtle sweetness, rich texture, and pure sophistication in cookie form. 💚✨"
-      price: "₹ 145"
+      description: "This biscotti brings the delicate flavor of roasted pistachios to every crunchy bite. Subtle sweetness, rich texture — a perfect accompaniment to your tea or coffee."
+      price: "₹ 150"
       quantity: "110 grams"
       type: "veg"
       allergens: ["Gluten", "Nuts"]
