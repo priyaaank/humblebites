@@ -1,0 +1,42 @@
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>{{ site.title }}</h4>
+                <p>{{ site.description }}</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="{{ site.baseurl }}/">Home</a></li>
+                    <li><a href="{{ site.baseurl }}/menu">Menu</a></li>
+                    <li><a href="{{ site.baseurl }}/about">About</a></li>
+                    <li><a href="{{ site.baseurl }}/chef">Chef</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Order Now</h4>
+                <a href="#" class="btn btn-secondary whatsapp-order" data-message="Hi! I'd like to know more about your products">Contact on WhatsApp</a>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="{{ site.instagram_url }}" target="_blank" rel="noopener noreferrer" class="social-link-footer" aria-label="Follow us on Instagram">
+                        <img src="{{ site.baseurl }}/assets/images/products/instagram-icon.svg" alt="Instagram" class="social-icon-footer">
+                        <span>{{ site.instagram_handle }}</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="{{ site.baseurl }}/assets/js/menu-loader.js"></script>
+{% if page.custom_js %}
+<script>
+{{ page.custom_js }}
+</script>
+{% endif %}

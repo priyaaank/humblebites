@@ -8,8 +8,24 @@
  */
 async function loadMenu() {
     try {
-        const response = await fetch('menu-config.json');
-        if (!response.ok) {
+        // Try multiple paths to find the config file
+        const paths = [
+            '/assets/menu-config.json',
+            'assets/menu-config.json',
+            'menu-config.json'
+        ];
+
+        let response;
+        for (const path of paths) {
+            try {
+                response = await fetch(path);
+                if (response.ok) break;
+            } catch (e) {
+                continue;
+            }
+        }
+
+        if (!response || !response.ok) {
             throw new Error('Failed to load menu configuration');
         }
         const data = await response.json();

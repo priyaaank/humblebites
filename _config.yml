@@ -1,0 +1,50 @@
+# Site settings
+title: Humble Bites
+description: Freshly baked goods made with love and premium ingredients
+url: "https://humblebites.in"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - docker-compose.yml
+  - Dockerfile
+  - quick-start.sh
+  - START-HERE.txt
+  - DEPLOYMENT.md
+  - DEPLOYMENT-GUIDE.md
+  - GETTING-STARTED.md
+  - MENU-UPDATE-GUIDE.md
+  - PROJECT-OVERVIEW.md
+  - README.md
+  - SETUP-CHECKLIST.md
+
+# Include
+include:
+  - .nojekyll
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Social
+instagram_url: "https://instagram.com/humblebites.in"
+instagram_handle: "@humblebites.in"
