@@ -15,7 +15,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 12,
-          "image": "images/products/Amond Biscotti.jpg",
+          "image": "/assets/images/products/Amond Biscotti.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -31,7 +31,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 10,
-          "image": "images/products/Amond Biscotti.jpg",
+          "image": "/assets/images/products/Amond Biscotti.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -47,7 +47,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 12,
-          "image": "images/products/Lemon Almond Biscotti.jpg",
+          "image": "/assets/images/products/Lemon Almond Biscotti.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -63,7 +63,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 10,
-          "image": "images/products/biscotti.jpg",
+          "image": "/assets/images/products/biscotti.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -79,7 +79,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 8,
-          "image": "images/products/chocolate.jpg",
+          "image": "/assets/images/products/chocolate.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -95,7 +95,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 8,
-          "image": "images/products/zestyfruitandnut.jpg",
+          "image": "/assets/images/products/zestyfruitandnut.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -111,7 +111,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 10,
-          "image": "images/products/orangecranberry.jpg",
+          "image": "/assets/images/products/orangecranberry.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -128,7 +128,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 12,
-          "image": "images/products/Lemon Biscotti.jpg",
+          "image": "/assets/images/products/Lemon Biscotti.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -143,7 +143,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 10,
-          "image": "images/products/pistachio.jpg",
+          "image": "/assets/images/products/pistachio.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -166,7 +166,7 @@
           "currency": "₹",
           "portionSize": "100 gms",
           "quantityAvailable": 10,
-          "image": "images/products/coconutchocolatecookie.jpg",
+          "image": "/assets/images/products/coconutchocolatecookie.jpg",
           "available": true,
           "type": "egg",
           "allergens": [
@@ -182,7 +182,7 @@
           "currency": "₹",
           "portionSize": "105 gms",
           "quantityAvailable": 10,
-          "image": "images/products/chocochunkcookie.png",
+          "image": "/assets/images/products/chocochunkcookie.png",
           "available": true,
           "type": "egg",
           "allergens": [
@@ -198,7 +198,7 @@
           "currency": "₹",
           "portionSize": "180 gms",
           "quantityAvailable": 8,
-          "image": "images/products/oatmcookie.jpg",
+          "image": "/assets/images/products/oatmcookie.jpg",
           "available": true,
           "type": "egg",
           "allergens": [
@@ -214,7 +214,7 @@
           "currency": "₹",
           "portionSize": "150 gms",
           "quantityAvailable": 8,
-          "image": "images/products/oatmcookie.jpg",
+          "image": "/assets/images/products/oatmcookie.jpg",
           "available": true,
           "type": "egg",
           "allergens": [
@@ -237,7 +237,7 @@
           "currency": "₹",
           "portionSize": "1 Piece (approx 115gms)",
           "quantityAvailable": 15,
-          "image": "images/products/bananachocolatemuffin.jpg",
+          "image": "/assets/images/products/bananachocolatemuffin.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -253,7 +253,7 @@
           "currency": "₹",
           "portionSize": "1 Piece (approx 115gms)",
           "quantityAvailable": 15,
-          "image": "images/products/vanillachocolatemuffins.jpg",
+          "image": "/assets/images/products/vanillachocolatemuffins.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -269,7 +269,7 @@
           "currency": "₹",
           "portionSize": "1 Piece (approx 115gms)",
           "quantityAvailable": 12,
-          "image": "images/products/vanillachocolatemuffins.jpg",
+          "image": "/assets/images/products/vanillachocolatemuffins.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -292,7 +292,7 @@
           "currency": "₹",
           "portionSize": "225 gms",
           "quantityAvailable": 6,
-          "image": "images/products/lemondrizzlecakesprinkle.jpg",
+          "image": "/assets/images/products/lemondrizzlecakesprinkle.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -307,7 +307,7 @@
           "currency": "₹",
           "portionSize": "2 pcs",
           "quantityAvailable": 8,
-          "image": "images/products/MiniCaramelCheesecake.jpg",
+          "image": "/assets/images/products/MiniCaramelCheesecake.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -322,7 +322,7 @@
           "currency": "₹",
           "portionSize": "2 pcs",
           "quantityAvailable": 8,
-          "image": "images/products/lemondrizzlecakesprinkle.jpg",
+          "image": "/assets/images/products/lemondrizzlecakesprinkle.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -344,7 +344,7 @@
           "currency": "₹",
           "portionSize": "1 Piece",
           "quantityAvailable": 20,
-          "image": "images/products/vadapaav.jpg",
+          "image": "/assets/images/products/vadapaav.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -360,7 +360,7 @@
           "currency": "₹",
           "portionSize": "2 Pieces",
           "quantityAvailable": 15,
-          "image": "images/products/sambarwadi.jpg",
+          "image": "/assets/images/products/sambarwadi.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -376,7 +376,7 @@
           "currency": "₹",
           "portionSize": "4 Pieces",
           "quantityAvailable": 20,
-          "image": "images/products/sabudana.jpg",
+          "image": "/assets/images/products/sabudana.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -391,7 +391,7 @@
           "currency": "₹",
           "portionSize": "1 Piece",
           "quantityAvailable": 18,
-          "image": "images/products/dabeli.jpg",
+          "image": "/assets/images/products/dabeli.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -406,7 +406,7 @@
           "currency": "₹",
           "portionSize": "10 pcs/150 gms",
           "quantityAvailable": 15,
-          "image": "images/products/MiniSamosa.jpeg",
+          "image": "/assets/images/products/MiniSamosa.jpeg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -421,7 +421,7 @@
           "currency": "₹",
           "portionSize": "10 pcs",
           "quantityAvailable": 12,
-          "image": "images/products/MiniShegaonKachori.jpeg",
+          "image": "/assets/images/products/MiniShegaonKachori.jpeg",
           "available": true,
           "type": "veg",
           "allergens": [
