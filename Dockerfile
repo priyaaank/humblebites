@@ -22,6 +22,9 @@ RUN bundle exec jekyll build
 # Production stage
 FROM nginx:alpine
 
+# Copy custom nginx configuration
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
 # Copy built site from builder
 COPY --from=builder /app/_site /usr/share/nginx/html
 
