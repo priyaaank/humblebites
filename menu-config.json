@@ -1,0 +1,434 @@
+{
+  "lastUpdated": "2025-10-22",
+  "whatsappNumber": "919545966155",
+  "categories": [
+    {
+      "id": "fresh-biscottis",
+      "name": "Biscottis",
+      "description": "Freshly baked Italian biscuits, perfect for dunking in your coffee or tea",
+      "items": [
+        {
+          "id": "almond-biscotti",
+          "name": "Almond Biscotti",
+          "description": "Twice-baked, golden crisp, and delightfully nutty — these Italian biscottis are packed with toasted almonds and made for dunking in your coffee or chai. Classy, crunchy, and totally addictive! ☕🌰",
+          "price": 130,
+          "currency": "₹",
+          "portionSize": "110 grams",
+          "quantityAvailable": 12,
+          "image": "images/products/Amond Biscotti.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "Gluten",
+            "Nuts"
+          ]
+        },
+        {
+          "id": "coffee-almond-pecan-biscotti",
+          "name": "Coffee Almond Pecan Biscotti",
+          "description": "Where coffee meets crunch. Aromatic, nutty, and irresistibly balanced — this biscotti is your espresso's new soulmate",
+          "price": 165,
+          "currency": "₹",
+          "portionSize": "110 grams",
+          "quantityAvailable": 10,
+          "image": "images/products/Amond Biscotti.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "Gluten",
+            "Nuts"
+          ]
+        },
+        {
+          "id": "lemon-almond-biscotti",
+          "name": "Lemon Almond Biscotti",
+          "description": "Twice-baked, golden crisp, and delightfully nutty — these Italian biscottis are packed with toasted almonds and a zesty lemon twist, made for dunking in your coffee or chai. Classy, crunchy, and totally addictive! ☕🌰",
+          "price": 145,
+          "currency": "₹",
+          "portionSize": "110 grams",
+          "quantityAvailable": 12,
+          "image": "images/products/Lemon Almond Biscotti.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "Gluten",
+            "Nuts"
+          ]
+        },
+        {
+          "id": "cranberry-almond-biscotti",
+          "name": "Cranberry Almond Biscotti",
+          "description": "Twice-baked, golden crisp, and deliciously nutty — these Italian biscottis are dotted with tangy cranberries and crunchy almonds, made for dunking in your coffee or chai. Classy, crunchy, and totally addictive! ☕🌰🍒",
+          "price": 185,
+          "currency": "₹",
+          "portionSize": "110 grams",
+          "quantityAvailable": 10,
+          "image": "images/products/biscotti.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "Gluten",
+            "nuts"
+          ]
+        },
+        {
+          "id": "chocolate-almond-biscotti",
+          "name": "Chocolate Almond Biscotti",
+          "description": "Deep, dark, and dangerously addictive. Rich chocolate and crunchy almonds baked to perfection. Perfect for when your coffee (and your soul) needs something bold. ☕✨",
+          "price": 210,
+          "currency": "₹",
+          "portionSize": "110 grams",
+          "quantityAvailable": 8,
+          "image": "images/products/chocolate.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "Gluten",
+            "Cocoa"
+          ]
+        },
+        {
+          "id": "zesty-fruit-nuts-biscotti",
+          "name": "Zesty Fruit & Nuts Biscotti",
+          "description": "Crunchy almonds and pistachios meet tangy cranberries and orange — a perfect accompaniment to your tea or coffee",
+          "price": 235,
+          "currency": "₹",
+          "portionSize": "110 grams",
+          "quantityAvailable": 8,
+          "image": "images/products/zestyfruitandnut.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "Gluten",
+            "Nuts"
+          ]
+        },
+        {
+          "id": "orange-cranberry-biscotti",
+          "name": "Orange Cranberry Biscotti",
+          "description": "A zesty twist of orange with the tart sweetness of cranberries — bright, cheerful, and deliciously unforgettable.",
+          "price": 150,
+          "currency": "₹",
+          "portionSize": "110 grams",
+          "quantityAvailable": 10,
+          "image": "images/products/orangecranberry.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "Gluten",
+            "Nuts",
+            "Cranberry"
+          ]
+        },
+        {
+          "id": "lemon-biscotti",
+          "name": "Lemon Biscotti",
+          "description": "Twice-baked and golden crisp with a bright, zesty lemon twist — these Italian biscottis are light, citrusy, and perfect for dunking in your coffee or chai. Elegant, crunchy, and utterly addictive! ☕🍋",
+          "price": 115,
+          "currency": "₹",
+          "portionSize": "110 grams",
+          "quantityAvailable": 12,
+          "image": "images/products/Lemon Biscotti.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "Gluten"
+          ]
+        },
+        {
+          "id": "pistachio-biscotti",
+          "name": "Pistachio Biscotti",
+          "description": "This biscotti brings the delicate flavor of roasted pistachios to every crunchy bite. Subtle sweetness, rich texture — a perfect accompaniment to your tea or coffee.",
+          "price": 150,
+          "currency": "₹",
+          "portionSize": "110 grams",
+          "quantityAvailable": 10,
+          "image": "images/products/pistachio.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "Gluten",
+            "Nuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "name": "Cookies",
+      "description": "Crispy, chewy, and utterly addictive cookies for every craving",
+      "items": [
+        {
+          "id": "coconut-chocolate-cookies",
+          "name": "Coconut Chocolate Cookies",
+          "description": "Crispy edges, chewy centers, and a tropical-choco twist! These cookies blend toasted coconut with melty chocolate chunks for a bite that's both cozy and exotic. 🥥🍫",
+          "price": 130,
+          "currency": "₹",
+          "portionSize": "100 gms",
+          "quantityAvailable": 10,
+          "image": "images/products/coconutchocolatecookie.jpg",
+          "available": true,
+          "type": "egg",
+          "allergens": [
+            "dairy",
+            "gluten"
+          ]
+        },
+        {
+          "id": "choco-chunk-cookies",
+          "name": "Choco Chunk Cookies",
+          "description": "Golden, chewy, and generously studded with big, melty couverture chocolate chunks — these cookies are your ultimate pick-me-up with every bite. Classic, but with a chunky twist! 🍪🍫",
+          "price": 130,
+          "currency": "₹",
+          "portionSize": "105 gms",
+          "quantityAvailable": 10,
+          "image": "images/products/chocochunkcookie.png",
+          "available": true,
+          "type": "egg",
+          "allergens": [
+            "dairy",
+            "gluten"
+          ]
+        },
+        {
+          "id": "oatmeal-chocolate-cookies",
+          "name": "Oatmeal Chocolate Cookies",
+          "description": "Chewy oatmeal cookies studded with rich couverture chocolate — wholesome, hearty, and indulgently smooth in every bite.",
+          "price": 220,
+          "currency": "₹",
+          "portionSize": "180 gms",
+          "quantityAvailable": 8,
+          "image": "images/products/oatmcookie.jpg",
+          "available": true,
+          "type": "egg",
+          "allergens": [
+            "dairy",
+            "gluten"
+          ]
+        },
+        {
+          "id": "oatmeal-cranberry-cookies",
+          "name": "Oatmeal Cranberry Cookies",
+          "description": "Chewy oatmeal cookies studded with tangy cranberries — wholesome, hearty, and indulgently smooth in every bite.",
+          "price": 210,
+          "currency": "₹",
+          "portionSize": "150 gms",
+          "quantityAvailable": 8,
+          "image": "images/products/oatmcookie.jpg",
+          "available": true,
+          "type": "egg",
+          "allergens": [
+            "dairy",
+            "gluten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muffins",
+      "name": "Muffins",
+      "description": "Moist and flavorful muffins packed with delicious ingredients",
+      "items": [
+        {
+          "id": "banana-choco-chunk-muffins",
+          "name": "Banana Choco Chunk Muffins",
+          "description": "Fudgy, gooey, and loaded with banana, couverture chunky chocolate bites — this muffin doesn't mess around. It's rich, intense, and unapologetically indulgent. 🍫💥",
+          "price": 130,
+          "currency": "₹",
+          "portionSize": "1 Piece (approx 115gms)",
+          "quantityAvailable": 15,
+          "image": "images/products/bananachocolatemuffin.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "dairy",
+            "gluten"
+          ]
+        },
+        {
+          "id": "vanilla-choco-chunk-muffins",
+          "name": "Vanilla Choco Chunk Muffins",
+          "description": "Fudgy, gooey, and loaded with couverture chunky chocolate bites — these vanilla Muffins doesn't mess around. It's rich, intense, and unapologetically indulgent. 🍫💥",
+          "price": 125,
+          "currency": "₹",
+          "portionSize": "1 Piece (approx 115gms)",
+          "quantityAvailable": 15,
+          "image": "images/products/vanillachocolatemuffins.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "dairy",
+            "gluten"
+          ]
+        },
+        {
+          "id": "chocolate-cranberry-muffins",
+          "name": "Chocolate Cranberry Muffins",
+          "description": "Soft, rich muffins loaded with couverture chocolate chunks and tangy cranberries. It's rich, intense, and unapologetically indulgent. 🍫💥",
+          "price": 135,
+          "currency": "₹",
+          "portionSize": "1 Piece (approx 115gms)",
+          "quantityAvailable": 12,
+          "image": "images/products/vanillachocolatemuffins.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "dairy",
+            "gluten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cakes",
+      "name": "Cakes",
+      "description": "Classic tea cakes perfect for your afternoon tea or coffee break",
+      "items": [
+        {
+          "id": "lemon-drizzle-cake",
+          "name": "Lemon Drizzle Cake",
+          "description": "Light, zesty, and utterly irresistible — this buttery cake is soaked in a tangy lemon glaze that adds just the right zing. Sunshine, but in slice form! 🍋✨",
+          "price": 200,
+          "currency": "₹",
+          "portionSize": "225 gms",
+          "quantityAvailable": 6,
+          "image": "images/products/lemondrizzlecakesprinkle.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "dairy"
+          ]
+        },
+        {
+          "id": "mini-caramel-cheesecake",
+          "name": "Mini Caramel Cheesecake",
+          "description": "A pair of bite-sized indulgence with rich caramel and creamy cheesecake delight.",
+          "price": 175,
+          "currency": "₹",
+          "portionSize": "2 pcs",
+          "quantityAvailable": 8,
+          "image": "images/products/MiniCaramelCheesecake.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "dairy"
+          ]
+        },
+        {
+          "id": "mini-gulabjamun-cheesecake",
+          "name": "Mini GulabJamun Cheesecake",
+          "description": "A fusion of classic Indian sweetness and creamy cheesecake perfection, comes in a set of 2",
+          "price": 175,
+          "currency": "₹",
+          "portionSize": "2 pcs",
+          "quantityAvailable": 8,
+          "image": "images/products/lemondrizzlecakesprinkle.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "dairy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "name": "Snacks",
+      "description": "Street-style favorites and traditional bites to kickstart your meal",
+      "items": [
+        {
+          "id": "vada-paav",
+          "name": "Vada Paav",
+          "description": "Mumbai's iconic food, a spicy potato fritter hugged by a pav (bun), with fiery garlic chutneys and a green chili on the side. Bold, messy, and absolutely addictive",
+          "price": 75,
+          "currency": "₹",
+          "portionSize": "1 Piece",
+          "quantityAvailable": 20,
+          "image": "images/products/vadapaav.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "gluten",
+            "nuts"
+          ]
+        },
+        {
+          "id": "sambarwadi",
+          "name": "Sambarwadi",
+          "description": "A lesser-known Maharashtrian gem, flaky pastry pockets stuffed with a spiced mix of coconut, coriander, and gram flour. Think samosa, but sassier and way more flavour-packed.",
+          "price": 130,
+          "currency": "₹",
+          "portionSize": "2 Pieces",
+          "quantityAvailable": 15,
+          "image": "images/products/sambarwadi.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "nuts",
+            "poppy seeds"
+          ]
+        },
+        {
+          "id": "sabudana-wada",
+          "name": "Sabudana Wada",
+          "description": "Crispy on the outside, soft and nutty inside, these golden fritters of sago, peanuts, and mashed potato are a fasting favorite turned full-time snack star",
+          "price": 115,
+          "currency": "₹",
+          "portionSize": "4 Pieces",
+          "quantityAvailable": 20,
+          "image": "images/products/sabudana.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "nuts"
+          ]
+        },
+        {
+          "id": "dabeli",
+          "name": "Dabeli",
+          "description": "A spicy, sweet, and tangy mashed potato filling snuggled inside a Paav, loaded with crunchy peanuts, pomegranate pearls, and a secret chutney twist. Street-style magic from Kutch!",
+          "price": 100,
+          "currency": "₹",
+          "portionSize": "1 Piece",
+          "quantityAvailable": 18,
+          "image": "images/products/dabeli.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "nuts"
+          ]
+        },
+        {
+          "id": "mini-samosas",
+          "name": "Mini Samosas",
+          "description": "Crisp, golden pastry filled with a spiced potato and pea filling, seasoned with traditional Punjabi masalas. Perfectly bite-sized for your tea-time cravings or party platters. Served with sweet tamarind chutney for the perfect balance",
+          "price": 225,
+          "currency": "₹",
+          "portionSize": "10 pcs/150 gms",
+          "quantityAvailable": 15,
+          "image": "images/products/MiniSamosa.jpeg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "nuts"
+          ]
+        },
+        {
+          "id": "mini-shegaon-kachoris",
+          "name": "Mini Shegaon Kachoris",
+          "description": "Soft, flavorful kachoris filled with a gently spiced lentil mixture, inspired by the traditional Shegaon-style recipe. Served with sweet tamarind chutney for a perfectly balanced bite.",
+          "price": 280,
+          "currency": "₹",
+          "portionSize": "10 pcs",
+          "quantityAvailable": 12,
+          "image": "images/products/MiniShegaonKachori.jpeg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "nuts"
+          ]
+        }
+      ]
+    }
+  ]
+}
