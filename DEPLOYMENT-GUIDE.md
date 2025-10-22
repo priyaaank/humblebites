@@ -150,6 +150,20 @@ The GitHub Actions workflow will automatically:
 - Check that GitHub Pages source is set to "GitHub Actions"
 - Verify workflow ran successfully in Actions tab
 
+### Jekyll/Gemfile Error
+
+If you see an error like "Could not locate Gemfile or .bundle/ directory":
+
+- **Fix**: A `.nojekyll` file has been added to the repository root
+- This tells GitHub Pages NOT to process the site with Jekyll
+- Your site is plain HTML/CSS/JS and doesn't need Jekyll
+- After adding `.nojekyll`, commit and push again:
+  ```bash
+  git add .nojekyll
+  git commit -m "Add .nojekyll to disable Jekyll processing"
+  git push origin main
+  ```
+
 ### Custom Domain Not Working
 
 - Double-check DNS records at your domain registrar
@@ -192,6 +206,7 @@ hb/
 ├── chef.html                   # Chef page
 ├── menu-config.json            # Menu configuration
 ├── CNAME                       # Custom domain file
+├── .nojekyll                   # Disable Jekyll processing
 └── README.md
 ```
 
