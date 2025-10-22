@@ -13,7 +13,7 @@ custom_js: |
 ---
 
 <!-- Hero Header -->
-<section class="hero">
+<section class="hero hero-about">
     <div class="container">
         <div class="hero-content">
             <h1 class="hero-title">About Us</h1>
@@ -27,12 +27,6 @@ custom_js: |
     <div class="container">
         <div class="about-grid">
             <div class="about-text">
-
-                <div class="about-image">
-                    <div class="image-placeholder">
-                       <img src="{{ site.baseurl }}/assets/images/aboutus.jpg" alt="Humble Bites">
-                    </div>
-                </div>
 
                 <h2>The Philosophy of Cooking</h2>
                 <p>We believe great food starts with great ingredients. That's why we're obsessed, lovingly so, with quality. From the flour in your cake to the spices in your kebab, every ingredient is chosen with intention. No shortcuts, no substitutes, no compromise. Just real food, prepared the way it was meant to be.</p>
