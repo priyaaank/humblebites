@@ -31,7 +31,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 10,
-          "image": "/assets/images/products/Amond Biscotti.jpg",
+          "image": "/assets/images/products/coffee-almond-pecan.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -47,7 +47,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 12,
-          "image": "/assets/images/products/Lemon Almond Biscotti.jpg",
+          "image": "/assets/images/products/lemon-almond-biscotti.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -128,7 +128,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 12,
-          "image": "/assets/images/products/Lemon Biscotti.jpg",
+          "image": "/assets/images/products/lemon-biscotti.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -198,7 +198,7 @@
           "currency": "₹",
           "portionSize": "180 gms",
           "quantityAvailable": 8,
-          "image": "/assets/images/products/oatmcookie.jpg",
+          "image": "/assets/images/products/oatmeal-choco-cookies.jpg",
           "available": true,
           "type": "egg",
           "allergens": [
@@ -214,7 +214,7 @@
           "currency": "₹",
           "portionSize": "150 gms",
           "quantityAvailable": 8,
-          "image": "/assets/images/products/oatmcookie.jpg",
+          "image": "/assets/images/products/oatmeal-cran-cookies.jpg",
           "available": true,
           "type": "egg",
           "allergens": [

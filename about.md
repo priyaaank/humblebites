@@ -12,11 +12,13 @@ custom_js: |
     });
 ---
 
-<!-- Page Header -->
-<section class="page-header">
+<!-- Hero Header -->
+<section class="hero">
     <div class="container">
-        <h1>About Us</h1>
-        <p>Our Story, Our Passion</p>
+        <div class="hero-content">
+            <h1 class="hero-title">About Us</h1>
+            <p class="hero-subtitle">Our Story, Our Passion</p>
+        </div>
     </div>
 </section>
 
