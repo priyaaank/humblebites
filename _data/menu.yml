@@ -91,6 +91,22 @@ items:
       allergens: ["dairy", "gluten"]
       image: "/assets/images/chocochunkcookie.png"
 
+    - name: "Oatmeal Chocolate Cookies"
+      description: "Chewy oatmeal cookies studded with rich couverture chocolate — wholesome, hearty, and indulgently smooth in every bite."
+      price: "₹ 220"
+      quantity: "180 gms"
+      type: "egg"
+      allergens: ["dairy", "gluten"]
+      image: "/assets/images/OatmealChocolateCookies.png"
+
+    - name: "Oatmeal Cranberry Cookies"
+      description: "Chewy oatmeal cookies studded with tangy cranberries — wholesome, hearty, and indulgently smooth in every bite."
+      price: "₹ 210"
+      quantity: "150 gms"
+      type: "egg"
+      allergens: ["dairy", "gluten"]
+      image: "/assets/images/OatmealCranberryCookies.png"
+
   cakes:
     - name: "Lemon Drizzle Cake"
       description: "Light, zesty, and utterly irresistible — this buttery cake is soaked in a tangy lemon glaze that adds just the right zing. Sunshine, but in slice form! 🍋✨"
