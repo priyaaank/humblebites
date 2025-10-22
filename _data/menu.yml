@@ -49,6 +49,22 @@ items:
       allergens: ["nuts"]
       image: "/assets/images/dabeli.jpg"
 
+    - name: "Mini Samosas"
+      description: "Crisp, golden pastry filled with a spiced potato and pea filling, seasoned with traditional Punjabi masalas. Perfectly bite-sized for your tea-time cravings or party platters. Served with sweet tamarind chutney for the perfect balance"
+      price: "₹ 225"
+      quantity: "10 pcs/150 gms"
+      type: "veg"
+      allergens: ["nuts"]
+      image: "/assets/images/MiniSamosa.jpg"
+
+    - name: "Mini Shegaon Kachoris"
+      description: "Soft, flavorful kachoris filled with a gently spiced lentil mixture, inspired by the traditional Shegaon-style recipe. Served with sweet tamarind chutney for a perfectly balanced bite."
+      price: "₹ 280"
+      quantity: "10 pcs"
+      type: "veg"
+      allergens: ["nuts"]
+      image: "/assets/images/MiniShegaonKachori.jpg"
+
   muffins:
     - name: "Banana Choco Chunk Muffins"
       description: "Fudgy, gooey, and loaded with banana, couverture chunky chocolate bites — this muffin doesn't mess around. It's rich, intense, and unapologetically indulgent. 🍫💥"
@@ -115,6 +131,14 @@ items:
       type: "veg"
       allergens: ["dairy"]
       image: "/assets/images/lemondrizzlecakesprinkle.jpg"
+
+    - name: "Double Chocolate Brownies"
+      description: "Indulgently rich and fudgy, these brownies are crafted with premium couverture chocolate and Dutch-processed cocoa for a deep, luxurious chocolate flavor."
+      price: "₹ 160"
+      quantity: "110 gms"
+      type: "egg"
+      allergens: ["dairy"]
+      image: "/assets/images/MiniCaramelCheesecake.jpg"
     
     - name: "Mini Caramel Cheesecake"
       description: "A pair of bite-sized indulgence with rich caramel and creamy cheesecake delight."
