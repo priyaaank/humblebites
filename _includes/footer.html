@@ -34,7 +34,22 @@
     </div>
 </footer>
 
+<!-- Cookie Consent Banner -->
+<div id="cookie-consent-banner" class="cookie-consent">
+    <div class="cookie-consent-content">
+        <div class="cookie-consent-text">
+            <p><strong>We value your privacy</strong></p>
+            <p>We use cookies to enhance your browsing experience and analyze our traffic. By clicking "Accept", you consent to our use of cookies.</p>
+        </div>
+        <div class="cookie-consent-buttons">
+            <button id="cookie-accept-btn" class="btn btn-primary">Accept</button>
+            <button id="cookie-decline-btn" class="btn btn-outline">Decline</button>
+        </div>
+    </div>
+</div>
+
 <script src="{{ site.baseurl }}/assets/js/menu-loader.js"></script>
+<script src="{{ site.baseurl }}/assets/js/cookie-consent.js"></script>
 {% if page.custom_js %}
 <script>
 {{ page.custom_js }}
