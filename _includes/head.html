@@ -6,4 +6,14 @@
     {% if page.custom_css %}
     <style>{{ page.custom_css }}</style>
     {% endif %}
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPM663QCCJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MPM663QCCJ');
+    </script>
 </head>
