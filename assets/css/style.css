@@ -952,3 +952,72 @@ ul {
     font-size: 0.95rem;
     white-space: nowrap;
 }
+
+/* ====================================
+   Home Page Scheduled Dishes
+   ==================================== */
+.order-status-home,
+.delivery-date-home {
+    font-size: 0.9rem;
+    margin: 10px 0;
+    padding: 10px 12px;
+    background-color: var(--bg-light);
+    border-radius: 6px;
+}
+
+.status-label,
+.delivery-label {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-value,
+.delivery-value {
+    color: var(--text-dark);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.status-value.status-open {
+    color: #155724;
+    font-weight: 700;
+    background-color: #d4edda;
+    padding: 3px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.status-value.status-closed {
+    color: #721c24;
+    font-weight: 700;
+    background-color: #f8d7da;
+    padding: 3px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.delivery-value {
+    background-color: var(--secondary-color);
+    padding: 3px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 4px;
+    color: var(--primary-color);
+}
+
+.btn.disabled {
+    background-color: #cccccc;
+    color: #666666;
+    opacity: 0.6;
+}
+
+.btn.disabled:hover {
+    background-color: #cccccc;
+    transform: none;
+    box-shadow: var(--shadow);
+}
