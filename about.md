@@ -54,7 +54,7 @@ custom_js: |
                 </div>
                 <div class="value-card">
                     <div class="value-icon">🌿</div>
-                    <h3>Honest Ingredients & Flavors</h3>
+                    <h3>Quality Ingredients & Flavors</h3>
                     <p>Real flavors, no shortcuts. Authentic taste, the way it was meant to be.</p>
                 </div>
                 <div class="value-card">

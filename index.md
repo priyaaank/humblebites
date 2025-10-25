@@ -6,14 +6,11 @@ custom_js: |
     window.addEventListener('DOMContentLoaded', () => {
         loadMenu().then(menuData => {
             const specialsGrid = document.getElementById('specials-grid');
+            const sectionTitle = document.getElementById('home-section-title');
+            const sectionSubtitle = document.getElementById('home-section-subtitle');
 
             // Get scheduled dishes from config
             const scheduledDishes = menuData.scheduledDishes || [];
-
-            if (scheduledDishes.length === 0) {
-                specialsGrid.innerHTML = '<p class="no-items">No items available. Check back soon!</p>';
-                return;
-            }
 
             // Create a map of all items for quick lookup
             const itemsMap = {};
@@ -22,6 +19,39 @@ custom_js: |
                     itemsMap[item.id] = { ...item, categoryName: category.name };
                 });
             });
+
+            // Fallback special item IDs when no scheduled dishes
+            const fallbackSpecialIds = ['zesty-fruit-nuts-biscotti', 'banana-choco-chunk-muffins', 'choco-chunk-cookies'];
+
+            // Determine if we're showing scheduled dishes or specials
+            const showingScheduled = scheduledDishes.length > 0;
+
+            // Update section title and subtitle
+            if (showingScheduled) {
+                sectionTitle.textContent = 'Currently Accepting Orders';
+                sectionSubtitle.textContent = 'Limited batches available - Order now before spots fill up!';
+            } else {
+                sectionTitle.textContent = 'Our Specials';
+                sectionSubtitle.textContent = 'Handpicked favorites you\'ll love';
+            }
+
+            // If showing specials (no scheduled dishes), use fallback items
+            if (!showingScheduled) {
+                const specialItems = fallbackSpecialIds
+                    .map(id => itemsMap[id])
+                    .filter(item => item);
+
+                if (specialItems.length === 0) {
+                    specialsGrid.innerHTML = '<p class="no-items">No items available. Check back soon!</p>';
+                    return;
+                }
+
+                specialItems.forEach(item => {
+                    const card = createProductCard(item, menuData.whatsappNumber);
+                    specialsGrid.appendChild(card);
+                });
+                return;
+            }
 
             // Create cards for each scheduled dish
             scheduledDishes.forEach(scheduled => {
@@ -173,7 +203,7 @@ custom_js: |
             </div>
             <div class="value-card">
                 <div class="value-icon">🌿</div>
-                <h3>Honest Ingredients & Flavors</h3>
+                <h3>Quality Ingredients & Flavors</h3>
                 <p>Real flavors, no shortcuts. Authentic taste, the way it was meant to be.</p>
             </div>
             <div class="value-card">
@@ -190,11 +220,22 @@ custom_js: |
     </div>
 </section>
 
-<!-- Currently Accepting Orders -->
+<!-- Currently Accepting Orders / Our Specials -->
 <section class="specials-preview">
     <div class="container">
-        <h2 class="section-title">Currently Accepting Orders</h2>
-        <p class="section-subtitle">Limited batches available - Order now before spots fill up!</p>
+        <div class="order-types-blurb">
+            <h3>Two Ways to Order</h3>
+            <div class="order-types-content">
+                <div class="order-type">
+                    <strong>Running Orders:</strong> Freshly made pre-set dishes delivered on promised dates. Perfect for getting your favorites on a schedule!
+                </div>
+                <div class="order-type">
+                    <strong>Special Orders:</strong> Browse our full menu for an extensive selection. Custom orders available with advance notice.
+                </div>
+            </div>
+        </div>
+        <h2 id="home-section-title" class="section-title">Currently Accepting Orders</h2>
+        <p id="home-section-subtitle" class="section-subtitle">Limited batches available - Order now before spots fill up!</p>
         <div id="specials-grid" class="products-grid">
             <!-- Products will be loaded here by JavaScript -->
         </div>

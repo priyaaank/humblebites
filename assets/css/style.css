@@ -1021,3 +1021,53 @@ ul {
     transform: none;
     box-shadow: var(--shadow);
 }
+
+/* ====================================
+   Order Types Blurb
+   ==================================== */
+.order-types-blurb {
+    margin: 0 auto 50px;
+    padding: 30px;
+    background-color: var(--bg-light);
+    border-radius: var(--border-radius);
+    max-width: 900px;
+}
+
+.order-types-blurb h3 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-types-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.order-type {
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    line-height: 1.6;
+}
+
+.order-type strong {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+    .order-types-content {
+        grid-template-columns: 1fr;
+    }
+
+    .order-types-blurb {
+        padding: 20px;
+        margin: 0 auto 30px;
+    }
+}
