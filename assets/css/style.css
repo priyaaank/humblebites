@@ -1071,3 +1071,31 @@ ul {
         margin: 0 auto 30px;
     }
 }
+
+/* ====================================
+   Share Button Icon
+   ==================================== */
+.share-btn-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.share-btn-icon img {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.share-btn-icon:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.share-btn-icon:active {
+    transform: scale(0.95);
+}

@@ -126,13 +126,27 @@ custom_js: |
                 deliveryInfo.className = 'delivery-date-home';
                 deliveryInfo.innerHTML = `<span class="delivery-label">Delivery Date:</span> <span class="delivery-value">${formattedDeliveryDate}</span>`;
 
-                // Product details (price)
+                // Share button
+                const shareButton = document.createElement('a');
+                shareButton.className = 'share-btn-icon';
+                const shareImg = document.createElement('img');
+                shareImg.src = '/assets/images/share-90.png';
+                shareImg.alt = 'Share';
+                shareButton.appendChild(shareImg);
+                const shareMessage = `Check out this delicious item from Humble Bites!\n\n*${item.name}*\n${item.description}\n\n∙ Portion: ${item.portionSize}\n∙ Price: ${item.currency}${item.price}\n∙ Delivery: ${formattedDeliveryDate}\n∙ Status: ${ordersOpen ? 'Orders Open' : 'Orders Closed'}\n\nView full menu: https://humblebites.in?utm_source=whatsapp&utm_medium=social&utm_campaign=dish_share`;
+                shareButton.href = `https://wa.me/?text=${encodeURIComponent(shareMessage)}`;
+                shareButton.target = '_blank';
+                shareButton.rel = 'noopener noreferrer';
+                shareButton.title = 'Share on WhatsApp';
+
+                // Product details (price + share)
                 const details = document.createElement('div');
                 details.className = 'product-details';
                 const price = document.createElement('div');
                 price.className = 'product-price';
                 price.textContent = `${item.currency}${item.price}`;
                 details.appendChild(price);
+                details.appendChild(shareButton);
 
                 // Order button
                 const button = document.createElement('a');
