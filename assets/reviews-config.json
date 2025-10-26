@@ -1,0 +1,32 @@
+{
+  "reviews": [
+    {
+      "id": "review-1",
+      "name": "Rachna",
+      "image": "/assets/images/reviews/avatar-1.jpg",
+      "dish": "Choco Chunk Cookies",
+      "quote": "Another bomb of an item! Highly recommend the Crisp edges, luscious chocolate centre of this cookie. Thanks Radina!"    
+    },
+    {
+      "id": "review-2",
+      "name": "Manjula",
+      "image": "/assets/images/reviews/avatar-1.jpg",
+      "dish": "Almond Biscotti",
+      "quote": "Almond biscottis are so yummy and crisp! Tastes great! Love it!"    
+    },
+    {
+      "id": "review-3",
+      "name": "Sujata",
+      "image": "/assets/images/reviews/avatar-1.jpg",
+      "dish": "Sabudana Wada",
+      "quote": "Flavourful and warm. Just what’s needed with evening tea! Thank you Radina"    
+    },
+    {
+      "id": "review-4",
+      "name": "Coconut Cookies",
+      "image": "/assets/images/reviews/avatar-1.jpg",
+      "dish": "Coconut Cookies",
+      "quote": "Lovely lovely coconut cookies, Radina. So flavourful. Thank you."
+    }
+  ]
+}
