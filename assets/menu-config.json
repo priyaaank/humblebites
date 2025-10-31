@@ -4,21 +4,28 @@
   "scheduledDishes": [
     {
       "itemId": "zesty-fruit-nuts-biscotti",
-      "cookingDate": "2025-10-22",
-      "orderDeadline": "2025-10-22T18:00:00",
+      "cookingDate": "2025-11-04",
+      "orderDeadline": "2025-11-03T18:00:00",
+      "orderOpen": true
+    },
+
+    {
+      "itemId": "coffee-almond-pecan-biscotti",
+      "cookingDate": "2025-11-05",
+      "orderDeadline": "2025-11-04T18:00:00",
       "orderOpen": true
     },
     {
-      "itemId": "banana-choco-chunk-muffins",
-      "cookingDate": "2025-10-23",
-      "orderDeadline": "2025-10-23T20:00:00",
+      "itemId": "chocolate-almond-biscotti",
+      "cookingDate": "2025-11-05",
+      "orderDeadline": "2025-11-04T18:00:00",
       "orderOpen": true
     },
     {
-      "itemId": "choco-chunk-cookies",
-      "cookingDate": "2025-10-24",
-      "orderDeadline": "2025-10-24T20:00:00",
-      "orderOpen": false
+      "itemId": "orange-cranberry-biscotti",
+      "cookingDate": "2025-11-05",
+      "orderDeadline": "2025-11-04T18:00:00",
+      "orderOpen": true
     }
   ],
   "categories": [
