@@ -4,8 +4,8 @@
   "scheduledDishes": [
     {
       "itemId": "zesty-fruit-nuts-biscotti",
-      "cookingDate": "2025-11-04",
-      "orderDeadline": "2025-11-03T18:00:00",
+      "cookingDate": "2025-11-05",
+      "orderDeadline": "2025-11-04T18:00:00",
       "orderOpen": true
     },
 
@@ -37,6 +37,12 @@
       "itemId": "cranberry-almond-biscotti",
       "cookingDate": "2025-11-05",
       "orderDeadline": "2025-11-04T18:00:00",
+      "orderOpen": true
+    },
+     {
+      "itemId": "vada-paav",
+      "cookingDate": "2025-11-08",
+      "orderDeadline": "2025-11-07T18:00:00",
       "orderOpen": true
     }
 
