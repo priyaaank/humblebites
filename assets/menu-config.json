@@ -44,6 +44,12 @@
       "cookingDate": "2025-11-08",
       "orderDeadline": "2025-11-07T18:00:00",
       "orderOpen": true
+    },
+    {
+      "itemId": "chocolate-cranberry-muffins",
+      "cookingDate": "2025-11-07",
+      "orderDeadline": "2025-11-06T18:00:00",
+      "orderOpen": true
     }
 
 
