@@ -5,53 +5,55 @@
     {
       "itemId": "zesty-fruit-nuts-biscotti",
       "cookingDate": "2025-11-05",
-      "orderDeadline": "2025-11-04T18:00:00",
+      "orderDeadline": "2025-11-12T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "coffee-almond-pecan-biscotti",
       "cookingDate": "2025-11-05",
-      "orderDeadline": "2025-11-04T18:00:00",
+      "orderDeadline": "2025-11-12T18:00:00",
       "orderOpen": true
     },
     {
       "itemId": "chocolate-almond-biscotti",
       "cookingDate": "2025-11-05",
-      "orderDeadline": "2025-11-04T18:00:00",
+      "orderDeadline": "2025-11-12T18:00:00",
       "orderOpen": true
     },
     {
       "itemId": "orange-cranberry-biscotti",
       "cookingDate": "2025-11-05",
-      "orderDeadline": "2025-11-04T18:00:00",
+      "orderDeadline": "2025-11-12T18:00:00",
       "orderOpen": true
     },
     {
       "itemId": "lemon-almond-biscotti",
       "cookingDate": "2025-11-05",
-      "orderDeadline": "2025-11-04T18:00:00",
+      "orderDeadline": "2025-11-12T18:00:00",
       "orderOpen": true
     },
     {
       "itemId": "cranberry-almond-biscotti",
       "cookingDate": "2025-11-05",
-      "orderDeadline": "2025-11-04T18:00:00",
+      "orderDeadline": "2025-11-12T18:00:00",
       "orderOpen": true
     },
-     {
-      "itemId": "vada-paav",
-      "cookingDate": "2025-11-08",
-      "orderDeadline": "2025-11-07T18:00:00",
-      "orderOpen": true
-    },
+
     {
-      "itemId": "chocolate-cranberry-muffins",
-      "cookingDate": "2025-11-07",
-      "orderDeadline": "2025-11-06T18:00:00",
+      "itemId": "pistachio-biscotti",
+      "cookingDate": "2025-11-05",
+      "orderDeadline": "2025-11-12T18:00:00",
+      "orderOpen": true
+    },
+
+
+    {
+      "itemId": "chocolate-brownies",
+      "cookingDate": "2025-12-05",
+      "orderDeadline": "2025-11-12T09:00:00",
       "orderOpen": true
     }
-
 
 
   ],
@@ -349,6 +351,21 @@
           "image": "/assets/images/products/lemondrizzlecakesprinkle.jpg",
           "available": true,
           "type": "veg",
+          "allergens": [
+            "dairy"
+          ]
+        },
+        {
+          "id": "chocolate-brownies",
+          "name": "Double Chocolate Brownies",
+          "description": "A melt-in-your-mouth double chocolate brownie, crafted with couverture chocolate and eggs for that perfect fudgy bite",
+          "price": 160,
+          "currency": "₹",
+          "portionSize": "110 gms",
+          "quantityAvailable": 6,
+          "image": "/assets/images/products/chocolatebrownies.jpg",
+          "available": true,
+          "type": "egg",
           "allergens": [
             "dairy"
           ]
