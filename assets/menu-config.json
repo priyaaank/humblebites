@@ -4,8 +4,8 @@
   "scheduledDishes": [
     {
       "itemId": "zesty-fruit-nuts-biscotti",
-      "cookingDate": "2025-11-05",
-      "orderDeadline": "2025-11-13T18:00:00",
+      "cookingDate": "2025-11-13",
+      "orderDeadline": "2025-11-12T18:00:00",
       "orderOpen": true
     },
 
@@ -35,14 +35,14 @@
     },
     {
       "itemId": "cranberry-almond-biscotti",
-      "cookingDate": "2025-11-12",
+      "cookingDate": "2025-11-13",
       "orderDeadline": "2025-11-12T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "pistachio-biscotti",
-      "cookingDate": "2025-11-05",
+      "cookingDate": "2025-11-13",
       "orderDeadline": "2025-11-12T18:00:00",
       "orderOpen": true
     },
@@ -50,7 +50,7 @@
 
     {
       "itemId": "chocolate-brownies",
-      "cookingDate": "2025-12-05",
+      "cookingDate": "2025-11-12",
       "orderDeadline": "2025-11-12T09:00:00",
       "orderOpen": true
     }
