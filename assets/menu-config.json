@@ -5,37 +5,37 @@
     {
       "itemId": "zesty-fruit-nuts-biscotti",
       "cookingDate": "2025-11-05",
-      "orderDeadline": "2025-11-12T18:00:00",
+      "orderDeadline": "2025-11-13T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "coffee-almond-pecan-biscotti",
-      "cookingDate": "2025-11-05",
+      "cookingDate": "2025-11-13",
       "orderDeadline": "2025-11-12T18:00:00",
       "orderOpen": true
     },
     {
       "itemId": "chocolate-almond-biscotti",
-      "cookingDate": "2025-11-05",
+      "cookingDate": "2025-11-13",
       "orderDeadline": "2025-11-12T18:00:00",
       "orderOpen": true
     },
     {
       "itemId": "orange-cranberry-biscotti",
-      "cookingDate": "2025-11-05",
+      "cookingDate": "2025-11-13",
       "orderDeadline": "2025-11-12T18:00:00",
       "orderOpen": true
     },
     {
       "itemId": "lemon-almond-biscotti",
-      "cookingDate": "2025-11-05",
+      "cookingDate": "2025-11-13",
       "orderDeadline": "2025-11-12T18:00:00",
       "orderOpen": true
     },
     {
       "itemId": "cranberry-almond-biscotti",
-      "cookingDate": "2025-11-05",
+      "cookingDate": "2025-11-12",
       "orderDeadline": "2025-11-12T18:00:00",
       "orderOpen": true
     },
@@ -363,7 +363,7 @@
           "currency": "₹",
           "portionSize": "110 gms",
           "quantityAvailable": 6,
-          "image": "/assets/images/products/chocolatebrownies.jpg",
+          "image": "/assets/images/products/chocolatebrownies.jpeg",
           "available": true,
           "type": "egg",
           "allergens": [
