@@ -9,51 +9,7 @@
       "orderOpen": true
     },
 
-    {
-      "itemId": "coffee-almond-pecan-biscotti",
-      "cookingDate": "2025-11-18",
-      "orderDeadline": "2025-11-19T18:00:00",
-      "orderOpen": true
-    },
-    {
-      "itemId": "chocolate-almond-biscotti",
-      "cookingDate": "2025-11-18",
-      "orderDeadline": "2025-11-19T18:00:00",
-      "orderOpen": true
-    },
-    {
-      "itemId": "orange-cranberry-biscotti",
-      "cookingDate": "2025-11-18",
-      "orderDeadline": "2025-11-19T18:00:00",
-      "orderOpen": true
-    },
-    {
-      "itemId": "lemon-almond-biscotti",
-      "cookingDate": "2025-11-18",
-      "orderDeadline": "2025-11-19T18:00:00",
-      "orderOpen": true
-    },
-    {
-      "itemId": "cranberry-almond-biscotti",
-      "cookingDate": "2025-11-18",
-      "orderDeadline": "2025-11-19T18:00:00",
-      "orderOpen": true
-    },
-
-    {
-      "itemId": "pistachio-biscotti",
-      "cookingDate": "2025-11-18",
-      "orderDeadline": "2025-11-19T18:00:00",
-      "orderOpen": true
-    },
-
-
-    {
-      "itemId": "mini-shegaon-kachoris",
-      "cookingDate": "2025-11-12",
-      "orderDeadline": "2025-11-12T09:00:00",
-      "orderOpen": true
-    }
+   
 
 
   ],
@@ -195,7 +151,7 @@
           "id": "pistachio-biscotti",
           "name": "Pistachio Biscotti",
           "description": "This biscotti brings the delicate flavor of roasted pistachios to every crunchy bite. Subtle sweetness, rich texture — a perfect accompaniment to your tea or coffee.",
-          "price": 150,
+          "price": 200,
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 10,
@@ -389,7 +345,7 @@
           "id": "mini-gulabjamun-cheesecake",
           "name": "Mini GulabJamun Cheesecake",
           "description": "A fusion of classic Indian sweetness and creamy cheesecake perfection, comes in a set of 2",
-          "price": 175,
+          "price": 190,
           "currency": "₹",
           "portionSize": "2 pcs",
           "quantityAvailable": 8,
