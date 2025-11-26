@@ -3,13 +3,53 @@
   "whatsappNumber": "919545966155",
   "scheduledDishes": [
     {
-      "itemId": "zesty-fruit-nuts-biscotti",
-      "cookingDate": "2025-11-18",
-      "orderDeadline": "2025-11-19T18:00:00",
+      "itemId": "almond-biscotti",
+      "cookingDate": "2025-11-27",
+      "orderDeadline": "2025-11-26T18:00:00",
       "orderOpen": true
-    }
+    },
 
-   
+    {
+      "itemId": "lemon-almond-biscotti",
+      "cookingDate": "2025-11-27",
+      "orderDeadline": "2025-11-26T18:00:00",
+      "orderOpen": true
+    },
+
+    {
+      "itemId": "coffee-almond-pecan-biscotti",
+      "cookingDate": "2025-11-27",
+      "orderDeadline": "2025-11-26T18:00:00",
+      "orderOpen": true
+    },
+
+    {
+      "itemId": "cranberry-almond-biscotti",
+      "cookingDate": "2025-11-27",
+      "orderDeadline": "2025-11-26T18:00:00",
+      "orderOpen": true
+    },
+
+    {
+      "itemId": "chocolate-almond-biscotti",
+      "cookingDate": "2025-11-27",
+      "orderDeadline": "2025-11-26T18:00:00",
+      "orderOpen": true
+    },
+
+    {
+      "itemId": "orange-cranberry-biscotti",
+      "cookingDate": "2025-11-27",
+      "orderDeadline": "2025-11-26T18:00:00",
+      "orderOpen": true
+    },
+
+    {
+      "itemId": "lemon-biscotti",
+      "cookingDate": "2025-11-27",
+      "orderDeadline": "2025-11-26T18:00:00",
+      "orderOpen": true
+    }   
 
 
   ],
