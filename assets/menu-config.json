@@ -4,53 +4,60 @@
   "scheduledDishes": [
     {
       "itemId": "almond-biscotti",
-      "cookingDate": "2025-11-27",
-      "orderDeadline": "2025-11-26T18:00:00",
+      "cookingDate": "2025-12-16",
+      "orderDeadline": "2025-12-15T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "lemon-almond-biscotti",
-      "cookingDate": "2025-11-27",
-      "orderDeadline": "2025-11-26T18:00:00",
+      "cookingDate": "2025-12-16",
+       "orderDeadline": "2025-12-15T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "coffee-almond-pecan-biscotti",
-      "cookingDate": "2025-11-27",
-      "orderDeadline": "2025-11-26T18:00:00",
+     "cookingDate": "2025-12-16",
+      "orderDeadline": "2025-12-15T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "cranberry-almond-biscotti",
-      "cookingDate": "2025-11-27",
-      "orderDeadline": "2025-11-26T18:00:00",
+     "cookingDate": "2025-12-16",
+      "orderDeadline": "2025-12-15T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "chocolate-almond-biscotti",
-      "cookingDate": "2025-11-27",
-      "orderDeadline": "2025-11-26T18:00:00",
+     "cookingDate": "2025-12-16",
+      "orderDeadline": "2025-12-15T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "orange-cranberry-biscotti",
-      "cookingDate": "2025-11-27",
-      "orderDeadline": "2025-11-26T18:00:00",
+     "cookingDate": "2025-12-16",
+      "orderDeadline": "2025-12-15T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "lemon-biscotti",
-      "cookingDate": "2025-11-27",
-      "orderDeadline": "2025-11-26T18:00:00",
+      "cookingDate": "2025-12-16",
+      "orderDeadline": "2025-12-15T18:00:00",
       "orderOpen": true
     }   
 
+
+    {
+      "itemId": "chocolate-almond-biscotti",
+       "cookingDate": "2025-12-16",
+      "orderDeadline": "2025-12-15T18:00:00",
+      "orderOpen": true
+    }  
 
   ],
   "categories": [
@@ -159,7 +166,7 @@
           "id": "orange-cranberry-biscotti",
           "name": "Orange Cranberry Biscotti",
           "description": "A zesty twist of orange with the tart sweetness of cranberries — bright, cheerful, and deliciously unforgettable.",
-          "price": 150,
+          "price": 175,
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 10,
