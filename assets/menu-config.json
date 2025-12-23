@@ -267,6 +267,38 @@
             "dairy",
             "gluten"
           ]
+        },
+        {
+          "id": "pistachio-white-cookies",
+          "name": "Caramelized Pistachio White Choco Chunks Cookies",
+          "description": "A rich, chewy cookie packed with caramelized pistachios and luxurious white couverture chocolate chunks—sweet, nutty, and unapologetically indulgent.",
+          "price": 180,
+          "currency": "₹",
+          "portionSize": "Pack of 2 (Approx-120 gms)",
+          "quantityAvailable": 10,
+          "image": "/assets/images/products/coconutchocolatecookie.jpg",
+          "available": true,
+          "type": "egg",
+          "allergens": [
+            "dairy",
+            "gluten"
+          ]
+        },
+        {
+          "id": "Pecan-Praline-Chocolate-cookies",
+          "name": "Pecan Praline Chocolate Chunk Cookies",
+          "description": "A rich, chewy cookie packed with caramelized pecans and a luxurious mix of milk and dark couverture chocolate—sweet, nutty, and unapologetically indulgent.",
+          "price": 180,
+          "currency": "₹",
+          "portionSize": "Pack of 2 (Approx-120 gms)",
+          "quantityAvailable": 10,
+          "image": "/assets/images/products/coconutchocolatecookie.jpg",
+          "available": true,
+          "type": "egg",
+          "allergens": [
+            "dairy",
+            "gluten"
+          ]
         }
       ]
     },
