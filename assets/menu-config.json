@@ -5,11 +5,12 @@
    
 
     {
-      "itemId": " mini-samosas",
+      "itemId": "mini-samosas",
       "cookingDate": "2025-12-27",
       "orderDeadline": "2025-12-27T13:00:00",
       "orderOpen": true
     },
+
     {
       "itemId": "almond-biscotti",
       "cookingDate": "2025-12-28",
