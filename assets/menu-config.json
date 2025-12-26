@@ -2,46 +2,54 @@
   "lastUpdated": "2025-12-20",
   "whatsappNumber": "919545966155",
   "scheduledDishes": [
+   
+
+    {
+      "itemId": " mini-samosas",
+      "cookingDate": "2025-12-27",
+      "orderDeadline": "2025-12-27T13:00:00",
+      "orderOpen": true
+    },
     {
       "itemId": "almond-biscotti",
-      "cookingDate": "2025-12-22",
-      "orderDeadline": "2025-12-21T18:00:00",
+      "cookingDate": "2025-12-28",
+      "orderDeadline": "2025-12-27T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "lemon-almond-biscotti",
-      "cookingDate": "2025-12-22",
-       "orderDeadline": "2025-12-21T18:00:00",
+      "cookingDate": "2025-12-28",
+       "orderDeadline": "2025-12-27T18:00:00",
       "orderOpen": true
     },
 
 
     {
       "itemId": "cranberry-almond-biscotti",
-     "cookingDate": "2025-12-22",
-      "orderDeadline": "2025-12-21T18:00:00",
+     "cookingDate": "2025-12-28",
+      "orderDeadline": "2025-12-27T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "orange-cranberry-biscotti",
-     "cookingDate": "2025-12-22",
-      "orderDeadline": "2025-12-21T18:00:00",
+     "cookingDate": "2025-12-28",
+      "orderDeadline": "2025-12-27T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "lemon-biscotti",
-      "cookingDate": "2025-12-22",
-      "orderDeadline": "2025-12-21T18:00:00",
+      "cookingDate": "2025-12-28",
+      "orderDeadline": "2025-12-27T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "chocolate-brownies",
-      "cookingDate": "2025-12-22",
-      "orderDeadline": "2025-12-21T18:00:00",
+      "cookingDate": "2025-12-28",
+      "orderDeadline": "2025-12-27T18:00:00",
       "orderOpen": true
     } 
 
