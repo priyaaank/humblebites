@@ -6,15 +6,15 @@
 
     {
       "itemId": "dabeli",
-      "cookingDate": "2025-01-02",
-      "orderDeadline": "2025-01-02T13:00:00",
+      "cookingDate": "2026-01-02",
+      "orderDeadline": "2026-01-02T13:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "choco-chunk-cookies",
-      "cookingDate": "2025-01-03",
-      "orderDeadline": "2025-01-02T13:00:00",
+      "cookingDate": "2026-01-03",
+      "orderDeadline": "2026-01-02T13:00:00",
       "orderOpen": true
     }
 
