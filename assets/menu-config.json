@@ -3,18 +3,57 @@
   "whatsappNumber": "919545966155",
   "scheduledDishes": [
    
-
-    {
-      "itemId": "dabeli",
-      "cookingDate": "2026-01-02",
-      "orderDeadline": "2026-01-02T13:00:00",
+      {
+      "itemId": "mini-shegaon-kachoris",
+      "cookingDate": "2026-01-04",
+      "orderDeadline": "2026-01-04T10:00:00",
       "orderOpen": true
     },
 
     {
-      "itemId": "choco-chunk-cookies",
-      "cookingDate": "2026-01-03",
-      "orderDeadline": "2026-01-02T13:00:00",
+      "itemId": "almond-biscotti",
+      "cookingDate": "2026-01-08",
+      "orderDeadline": "2026-01-07T18:00:00",
+      "orderOpen": true
+    },
+
+
+    {
+      "itemId": "coffee-almond-pecan-biscotti",
+      "cookingDate": "2026-01-08",
+      "orderDeadline": "2026-01-07T18:00:00",
+      "orderOpen": true
+    },
+
+
+    {
+      "itemId": "lemon-almond-biscotti",
+      "cookingDate": "2026-01-08",
+      "orderDeadline": "2026-01-07T18:00:00",
+      "orderOpen": true
+    },
+
+
+    {
+      "itemId": "lemon-biscotti",
+      "cookingDate": "2026-01-08",
+      "orderDeadline": "2026-01-07T18:00:00",
+      "orderOpen": true
+    },
+
+
+    {
+      "itemId": "cranberry-almond-biscotti",
+      "cookingDate": "2026-01-08",
+      "orderDeadline": "2026-01-07T18:00:00",
+      "orderOpen": true
+    },
+
+
+    {
+      "itemId": "orange-cranberry-biscotti",
+      "cookingDate": "2026-01-08",
+      "orderDeadline": "2026-01-07T18:00:00",
       "orderOpen": true
     }
 
