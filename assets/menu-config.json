@@ -1,59 +1,66 @@
 {
-  "lastUpdated": "2025-12-20",
+  "lastUpdated": "2026-01-30",
   "whatsappNumber": "919545966155",
   "scheduledDishes": [
    
       {
-      "itemId": "mini-shegaon-kachoris",
-      "cookingDate": "2026-01-04",
-      "orderDeadline": "2026-01-04T10:00:00",
+      "itemId": "choco-chunk-cookies",
+      "cookingDate": "2026-01-31",
+      "orderDeadline": "2026-01-31T18:00:00",
+      "orderOpen": true
+    },
+
+    {
+      "itemId": "CinnamonRolls",
+      "cookingDate": "2026-02-05",
+      "orderDeadline": "2026-02-04T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "almond-biscotti",
-      "cookingDate": "2026-01-08",
-      "orderDeadline": "2026-01-07T18:00:00",
+      "cookingDate": "2026-02-03",
+      "orderDeadline": "2026-02-02T18:00:00",
       "orderOpen": true
     },
 
 
     {
       "itemId": "coffee-almond-pecan-biscotti",
-      "cookingDate": "2026-01-08",
-      "orderDeadline": "2026-01-07T18:00:00",
+      "cookingDate": "2026-02-03",
+      "orderDeadline": "2026-02-02T18:00:00",
       "orderOpen": true
     },
 
 
     {
       "itemId": "lemon-almond-biscotti",
-      "cookingDate": "2026-01-08",
-      "orderDeadline": "2026-01-07T18:00:00",
+      "cookingDate": "2026-02-03",
+      "orderDeadline": "2026-02-02T18:00:00",
       "orderOpen": true
     },
 
 
     {
       "itemId": "lemon-biscotti",
-      "cookingDate": "2026-01-08",
-      "orderDeadline": "2026-01-07T18:00:00",
+      "cookingDate": "2026-02-03",
+      "orderDeadline": "2026-02-02T18:00:00",
       "orderOpen": true
     },
 
 
     {
       "itemId": "cranberry-almond-biscotti",
-      "cookingDate": "2026-01-08",
-      "orderDeadline": "2026-01-07T18:00:00",
+      "cookingDate": "2026-02-03",
+      "orderDeadline": "2026-02-02T18:00:00",
       "orderOpen": true
     },
 
 
     {
       "itemId": "orange-cranberry-biscotti",
-      "cookingDate": "2026-01-08",
-      "orderDeadline": "2026-01-07T18:00:00",
+      "cookingDate": "2026-02-03",
+      "orderDeadline": "2026-02-02T18:00:00",
       "orderOpen": true
     }
 
@@ -316,8 +323,8 @@
     },
     {
       "id": "muffins",
-      "name": "Muffins",
-      "description": "Moist and flavorful muffins packed with delicious ingredients",
+      "name": "Muffins & Rolls",
+      "description": "Moist and flavorful muffins and rolls packed with delicious ingredients",
       "items": [
         {
           "id": "banana-choco-chunk-muffins",
@@ -360,6 +367,23 @@
           "portionSize": "1 Piece (approx 115gms)",
           "quantityAvailable": 12,
           "image": "/assets/images/products/choco-cran-muffin.jpg",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "dairy",
+            "gluten"
+          ]
+        },
+
+        {
+          "id": "CinnamonRolls",
+          "name": "Cinnamon Rolls with Creamcheese frosting",
+          "description": "Soft, fluffy eggless cinnamon rolls swirled with warm cinnamon sugar and generously topped with smooth cream cheese frosting. Freshly baked and irresistibly comforting in every bite. 🤍✨",
+          "price": 110,
+          "currency": "₹",
+          "portionSize": "1 Piece",
+          "quantityAvailable": 12,
+          "image": "/assets/images/products/CinnamonRoll.jpg",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -433,7 +457,74 @@
           "allergens": [
             "dairy"
           ]
+        },
+
+        {
+          "id": "Baked Samoa Cheese Cake",
+          "name": "Samoa Baked Cheesecake",
+          "description": "A rich, eggless cheesecake inspired by classic Samoa flavours, topped with luscious caramel and roasted coconut. Made using quality ingredients for a smooth, indulgent finish in every bite. 🍰🥥✨",
+          "price": 275,
+          "currency": "₹",
+          "portionSize": "125 gms",
+          "quantityAvailable": 8,
+          "image": "/assets/images/products/Samoa Cheesecake.JPG",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "dairy"
+          ]
+        },
+
+        {
+          "id": "Baked Biscoff Cheesecake",
+          "name": "Baked Biscoff Cheesecake",
+          "description": "A rich, eggless baked cheesecake made with original Lotus Biscoff spread and a buttery Biscoff biscuit base. Smooth, indulgent, and crafted using quality ingredients for that signature flavour in every bite. 🍰✨",
+          "price": 235,
+          "currency": "₹",
+          "portionSize": "125 gms",
+          "quantityAvailable": 8,
+          "image": "/assets/images/products/BiscoffCheesecake.JPG",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "dairy"
+          ]
+        },
+
+        {
+          "id": "Brownie bottom Cheesecake",
+          "name": "Brownie Bottom Cheesecake",
+          "description": "Decadent cheesecake layered over a rich, fudgy eggless brownie base. Smooth, indulgent, and made with quality ingredients for the perfect balance of chocolatey depth and creamy richness. 🍫🍰✨",
+          "price": 225,
+          "currency": "₹",
+          "portionSize": "125 gms",
+          "quantityAvailable": 8,
+          "image": "/assets/images/products/BrownieBottomCheesecake.JPG",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "dairy"
+          ]
+        },
+
+        {
+          "id": "Baked Newyork Cheesecake",
+          "name": "New York Style Baked Cheesecake",
+          "description": "A classic, rich and creamy eggless New York–style cheesecake with a smooth, dense texture. Made using quality ingredients for a perfectly balanced, indulgent dessert experience. 🍰✨",
+          "price": 180,
+          "currency": "₹",
+          "portionSize": "125 gms",
+          "quantityAvailable": 8,
+          "image": "/assets/images/products/NewyorkCheesecake.JPG",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "dairy"
+          ]
         }
+
+
+
       ]
     },
     {
