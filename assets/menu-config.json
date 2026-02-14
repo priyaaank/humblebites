@@ -531,6 +531,8 @@
       "id": "snacks",
       "name": "Snacks",
       "description": "Street-style favorites and traditional bites to kickstart your meal",
+      "enabled": false,
+      "_comment": "Non-baking items - disabled for baking-focused website",
       "items": [
         {
           "id": "vada-paav",

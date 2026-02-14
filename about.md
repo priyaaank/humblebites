@@ -28,16 +28,16 @@ custom_js: |
         <div class="about-grid">
             <div class="about-text">
 
-                <h2>The Philosophy of Cooking</h2>
-                <p>We believe great food starts with great ingredients. That's why we're obsessed, lovingly so, with quality. From the flour in your cake to the spices in your kebab, every ingredient is chosen with intention. No shortcuts, no substitutes, no compromise. Just real food, prepared the way it was meant to be.</p>
-                <p>Radina, our chef and founder, follows traditional cooking methods that preserve the integrity of original recipes. She brings alive flavors that are true to their roots — honest, bold, and soul-satisfying. Each bite is designed to remind you of how food should taste, whether it's a perfectly spiced keema paav or a lemon drizzle cake that actually drizzles with love.</p>
-                <p>We don't chase trends or prettify our plates to impress, we cook to nourish, to delight, and to create memories that linger on the palate.</p>
+                <h2>The Philosophy of Baking</h2>
+                <p>We believe great baked goods start with great ingredients. That's why we're obsessed, lovingly so, with quality. From the finest flour in your cake to the premium chocolate in your cookies, every ingredient is chosen with intention. No shortcuts, no substitutes, no compromise. Just real food, prepared the way it was meant to be.</p>
+                <p>Radina, our baker and founder, follows traditional baking methods that preserve the integrity of original recipes. She brings alive flavors that are true to their roots; honest, bold, and soul-satisfying. Each bite is designed to remind you of how baked goods should taste, whether it's a rich chocolate biscotti or a lemon drizzle cake that actually drizzles with love.</p>
+                <p>We don't chase trends or prettify our plates to impress, we bake to nourish, to delight, and to create memories that linger on the palate.</p>
                 <p>We believe that the best baked goods come from quality ingredients and attention to detail. Each cupcake, muffin, cookie, and biscotti is handcrafted in small batches to ensure freshness and flavor in every bite.</p>
 
                 <h2>The Philosophy of Business</h2>
-                <p>We're not here to scale, mass-produce, or become the next big food brand. Humble Bites is proudly small, and plans to stay that way. This is a conscious choice.</p>
-                <p>We believe in slow food, in small batches, and in the magic that happens when one person pours their heart, soul, and full attention into the food they create. That's why Radina still cooks every dish herself, no ghost kitchens, no industrial kitchens, and no dilution of love.</p>
-                <p>Our pricing reflects this philosophy. We're not premium for the sake of it, and we're not competing to be the cheapest. We're priced just right for what we offer — honest, thoughtfully made food that respects the value of effort, quality, and flavor.</p>
+                <p>We're not here to scale, mass-produce, or become the next big bakery brand. Humble Bites is proudly small, and plans to stay that way. This is a conscious choice.</p>
+                <p>We believe in fresh baking, in small batches, and in the magic that happens when one person pours their heart, soul, and full attention into every treat they create. That's why Radina still bakes everything herself, only on demand, no ghost or industrial kitchens, and no dilution of love.</p>
+                <p>Our pricing reflects this philosophy. We're not premium for the sake of it, and we're not competing to be the cheapest. We're priced just right for what we offer; honest, thoughtfully baked goods that respect the value of effort, quality, and flavor.</p>
 
             </div>
 
@@ -64,8 +64,8 @@ custom_js: |
                 </div>
                 <div class="value-card">
                     <div class="value-icon">❤️</div>
-                    <h3>Cooked With Love</h3>
-                    <p>Handmade, heart-first. Food that fills your soul, not just your stomach.</p>
+                    <h3>Freshly Baked With Love</h3>
+                    <p>Freshly baked, heart-first. Treats that fill your soul, not just your stomach.</p>
                 </div>
             </div>
         </div>

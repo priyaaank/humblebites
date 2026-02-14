@@ -12,13 +12,15 @@ custom_js: |
             // Get scheduled dishes from config
             const scheduledDishes = menuData.scheduledDishes || [];
 
-            // Create a map of all items for quick lookup
+            // Create a map of all items for quick lookup (only from enabled categories)
             const itemsMap = {};
-            menuData.categories.forEach(category => {
-                category.items.forEach(item => {
-                    itemsMap[item.id] = { ...item, categoryName: category.name };
+            menuData.categories
+                .filter(category => category.enabled !== false)
+                .forEach(category => {
+                    category.items.forEach(item => {
+                        itemsMap[item.id] = { ...item, categoryName: category.name };
+                    });
                 });
-            });
 
             // Fallback special item IDs when no scheduled dishes
             const fallbackSpecialIds = ['zesty-fruit-nuts-biscotti', 'banana-choco-chunk-muffins', 'choco-chunk-cookies'];
@@ -227,8 +229,8 @@ custom_js: |
             </div>
             <div class="value-card">
                 <div class="value-icon">❤️</div>
-                <h3>Cooked With Love</h3>
-                <p>Handmade, heart-first. Food that fills your soul, not just your stomach.</p>
+                <h3>Freshly Baked With Love</h3>
+                <p>Freshly baked, heart-first. Treats that fill your soul, not just your stomach.</p>
             </div>
         </div>
     </div>

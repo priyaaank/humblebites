@@ -32,14 +32,14 @@ custom_js: |
 
             <div class="chef-bio">
                 <h2>Hello, I'm Radina</h2>
-                <p class="chef-title">Chef & Flavor Purist</p>
+                <p class="chef-title">Baker & Flavor Purist</p>
 
                 <div class="bio-content">
-                    <p>Radina's story isn't one of culinary school or family legacies in food. It's one of discovery, the kind that sneaks up on you in the middle of everyday life.</p>
-                    <p>She found her love for cooking in her early thirties, and something clicked. What began as simple experiments in her home kitchen quickly turned into a full-blown obsession; testing, tweaking, tasting, learning; day after day, year after year. Over the past decade, she has quietly evolved into a polyglot cook, drawing from regional Indian roots, global inspirations, and a deep, almost stubborn commitment to doing things right.</p>
-                    <p>Radina is known in her circle not for fancy tricks or frills, but for her uncompromising approach to food; the kind that refuses to settle, takes time, and shows up with real flavor, every single time. She believes food should be full of soul, and cooked like it means something, because for her, it always has.</p>
-                    <p>She's never wanted to turn food into a commercial machine. Humble Bites exists not to scale, but to share. To share the love that goes into cooking slowly, deliberately. To gather people around food, just like she always has, whether it's a weekend dinner, a festive celebration, or just an ordinary Tuesday that needs a little warmth.</p>
-                    <p>For over 15 years, food has been the heart of everything Radina does. And through Humble Bites, she's inviting you to taste that love, one lovingly made bite at a time.</p>
+                    <p>Radina's story isn't one of culinary school or family legacies in baking. It's one of discovery, the kind that sneaks up on you in the middle of everyday life.</p>
+                    <p>She found her love for baking in her early thirties, and something clicked. What began as simple experiments in her home kitchen quickly turned into a full-blown obsession; testing, tweaking, tasting, learning; day after day, year after year. Over the past decade, she has quietly evolved into an artisan baker, drawing from classic European techniques, global inspirations, and a deep, almost stubborn commitment to doing things right.</p>
+                    <p>Radina is known in her circle not for fancy tricks or frills, but for her uncompromising approach to baking; the kind that refuses to settle, takes time, and shows up with real flavor, every single time. She believes baked goods should be full of soul, and crafted like they mean something, because for her, they always have.</p>
+                    <p>She's never wanted to turn baking into a commercial machine. Humble Bites exists not to scale, but to share. To share the love that goes into baking slowly, deliberately. To gather people around treats, just like she always has, whether it's a weekend gathering, a festive celebration, or just an ordinary Tuesday that needs a little sweetness.</p>
+                    <p>For over 15 years, baking has been the heart of everything Radina does. And through Humble Bites, she's inviting you to taste that love, one lovingly baked bite at a time.</p>
                 </div>
             </div>
         </div>
@@ -60,13 +60,13 @@ custom_js: |
                 </div>
                 <div class="specialty-card">
                     <div class="specialty-icon">🧁</div>
-                    <h3>Muffins</h3>
-                    <p>Wholesome, delicious muffins perfect for breakfast or snacking</p>
+                    <h3>Muffins & Rolls</h3>
+                    <p>Wholesome, delicious muffins and cinnamon rolls perfect for breakfast or snacking</p>
                 </div>
                 <div class="specialty-card">
-                    <div class="specialty-icon">🌶️</div>
-                    <h3>Maharastrian Snacks</h3>
-                    <p>Delicious and savory snacks from the Maharashtra region, perfect for any occasion</p>
+                    <div class="specialty-icon">🍰</div>
+                    <h3>Cakes & Cheesecakes</h3>
+                    <p>Decadent cakes, rich brownies, and creamy cheesecakes made with premium ingredients</p>
                 </div>
 
             </div>

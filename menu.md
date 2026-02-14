@@ -4,9 +4,12 @@ title: Menu
 custom_js: |
     window.addEventListener('DOMContentLoaded', () => {
         loadMenu().then(menuData => {
+            // Filter out disabled categories
+            const enabledCategories = menuData.categories.filter(category => category.enabled !== false);
+
             // Create category navigation
             const categoryNav = document.getElementById('category-nav');
-            menuData.categories.forEach((category, index) => {
+            enabledCategories.forEach((category, index) => {
                 const navItem = document.createElement('a');
                 navItem.href = `#${category.id}`;
                 navItem.className = 'category-nav-item' + (index === 0 ? ' active' : '');
@@ -16,7 +19,7 @@ custom_js: |
 
             // Create menu sections
             const menuContainer = document.getElementById('menu-container');
-            menuData.categories.forEach(category => {
+            enabledCategories.forEach(category => {
                 const section = document.createElement('div');
                 section.className = 'menu-category';
                 section.id = category.id;
