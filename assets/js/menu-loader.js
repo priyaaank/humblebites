@@ -132,7 +132,7 @@ function createProductCard(item, whatsappNumber) {
     // Order button
     const button = document.createElement('a');
     button.className = 'btn ' + (item.available ? 'btn-primary' : 'btn-outline');
-    button.textContent = item.available ? 'Enquire to Order' : 'Notify When Available';
+    button.textContent = item.available ? 'Order on Whatsapp' : 'Notify When Available';
 
     if (item.available) {
         const orderMessage = `Hi! I'd like to order ${item.name} (${item.portionSize}) - ${item.currency}${item.price}`;

@@ -30,7 +30,7 @@ custom_js: |
 
             // Update section title and subtitle
             if (showingScheduled) {
-                sectionTitle.textContent = 'Currently Accepting Orders';
+                sectionTitle.textContent = 'Ongoing batch orders';
                 sectionSubtitle.textContent = 'Limited batches available - Order now before spots fill up!';
             } else {
                 sectionTitle.textContent = 'Our Specials';
@@ -236,7 +236,7 @@ custom_js: |
     </div>
 </section>
 
-<!-- Currently Accepting Orders / Our Specials -->
+<!-- Ongoing batch orders / Our Specials -->
 <section class="specials-preview">
     <div class="container">
         <div class="order-types-blurb">
@@ -250,13 +250,13 @@ custom_js: |
                 </div>
             </div>
         </div>
-        <h2 id="home-section-title" class="section-title">Currently Accepting Orders</h2>
+        <h2 id="home-section-title" class="section-title">Ongoing batch orders</h2>
         <p id="home-section-subtitle" class="section-subtitle">Limited batches available - Order now before spots fill up!</p>
         <div id="specials-grid" class="products-grid">
             <!-- Products will be loaded here by JavaScript -->
         </div>
         <div class="text-center">
-            <a href="{{ site.baseurl }}/menu" class="btn btn-primary">View Full Menu</a>
+            <a href="{{ site.baseurl }}/menu" class="btn btn-primary">View All</a>
         </div>
     </div>
 </section>
