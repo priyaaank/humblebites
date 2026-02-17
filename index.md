@@ -121,12 +121,7 @@ custom_js: |
                 // Order status
                 const orderStatus = document.createElement('div');
                 orderStatus.className = 'order-status-home';
-                orderStatus.innerHTML = `<span class="status-label">Order Status:</span> <span class="status-value ${ordersOpen ? 'status-open' : 'status-closed'}">${ordersOpen ? 'Open' : 'Closed'}</span>`;
-
-                // Delivery date
-                const deliveryInfo = document.createElement('div');
-                deliveryInfo.className = 'delivery-date-home';
-                deliveryInfo.innerHTML = `<span class="delivery-label">Delivery Date:</span> <span class="delivery-value">${formattedDeliveryDate}</span>`;
+                orderStatus.innerHTML = `<span class="status-label">Order Status:</span> <span class="status-value ${ordersOpen ? 'status-open' : 'status-closed'}">${ordersOpen ? 'Open' : 'Batch Sold Out'}</span>`;
 
                 // Share button
                 const shareButton = document.createElement('a');
@@ -135,7 +130,7 @@ custom_js: |
                 shareImg.src = '/assets/images/share-90.png';
                 shareImg.alt = 'Share';
                 shareButton.appendChild(shareImg);
-                const shareMessage = `Check out this delicious item from Humble Bites!\n\n*${item.name}*\n${item.description}\n\n∙ Portion: ${item.portionSize}\n∙ Price: ${item.currency}${item.price}\n∙ Delivery: ${formattedDeliveryDate}\n∙ Status: ${ordersOpen ? 'Orders Open' : 'Orders Closed'}\n\nView full menu: https://humblebites.in?utm_source=whatsapp&utm_medium=social&utm_campaign=dish_share`;
+                const shareMessage = `Check out this delicious item from Humble Bites!\n\n*${item.name}*\n${item.description}\n\n∙ Portion: ${item.portionSize}\n∙ Price: ${item.currency}${item.price}\n∙ Delivery: ${formattedDeliveryDate}\n∙ Status: ${ordersOpen ? 'Orders Open' : 'Batch Sold Out'}\n\nView full menu: https://humblebites.in?utm_source=whatsapp&utm_medium=social&utm_campaign=dish_share`;
                 shareButton.href = `https://wa.me/?text=${encodeURIComponent(shareMessage)}`;
                 shareButton.target = '_blank';
                 shareButton.rel = 'noopener noreferrer';
@@ -154,7 +149,7 @@ custom_js: |
                 const button = document.createElement('a');
                 const buttonEnabled = item.available && ordersOpen;
                 button.className = 'btn ' + (buttonEnabled ? 'btn-primary' : 'btn-outline disabled');
-                button.textContent = buttonEnabled ? 'Order on WhatsApp' : 'Orders Closed';
+                button.textContent = buttonEnabled ? 'Order on WhatsApp' : 'Batch Sold Out';
 
                 if (buttonEnabled) {
                     const orderMessage = `Hi! I'd like to order ${item.name} (${item.portionSize}) for delivery on ${formattedDeliveryDate} - ${item.currency}${item.price}`;
@@ -171,7 +166,6 @@ custom_js: |
                 content.appendChild(description);
                 content.appendChild(portion);
                 content.appendChild(orderStatus);
-                content.appendChild(deliveryInfo);
                 content.appendChild(details);
                 content.appendChild(button);
 
