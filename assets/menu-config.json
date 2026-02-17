@@ -1,69 +1,75 @@
 {
-  "lastUpdated": "2026-01-30",
+  "lastUpdated": "2026-02-17",
   "whatsappNumber": "919980742094",
   "scheduledDishes": [
-   
-      {
-      "itemId": "choco-chunk-cookies",
-      "cookingDate": "2026-01-31",
-      "orderDeadline": "2026-01-31T18:00:00",
-      "orderOpen": true
-    },
-
-    {
-      "itemId": "CinnamonRolls",
-      "cookingDate": "2026-02-05",
-      "orderDeadline": "2026-02-04T18:00:00",
-      "orderOpen": true
-    },
 
     {
       "itemId": "almond-biscotti",
-      "cookingDate": "2026-02-03",
-      "orderDeadline": "2026-02-02T18:00:00",
+      "cookingDate": "2026-02-28",
+      "orderDeadline": "2026-02-28T18:00:00",
       "orderOpen": true
     },
 
 
     {
       "itemId": "coffee-almond-pecan-biscotti",
-      "cookingDate": "2026-02-03",
-      "orderDeadline": "2026-02-02T18:00:00",
+      "cookingDate": "2026-02-28",
+      "orderDeadline": "2026-02-28T18:00:00",
       "orderOpen": true
     },
 
 
     {
       "itemId": "lemon-almond-biscotti",
-      "cookingDate": "2026-02-03",
-      "orderDeadline": "2026-02-02T18:00:00",
+      "cookingDate": "2026-02-28",
+      "orderDeadline": "2026-02-28T18:00:00",
       "orderOpen": true
     },
 
 
     {
       "itemId": "lemon-biscotti",
-      "cookingDate": "2026-02-03",
-      "orderDeadline": "2026-02-02T18:00:00",
+      "cookingDate": "2026-02-28",
+      "orderDeadline": "2026-02-28T18:00:00",
       "orderOpen": true
     },
 
 
     {
       "itemId": "cranberry-almond-biscotti",
-      "cookingDate": "2026-02-03",
-      "orderDeadline": "2026-02-02T18:00:00",
+      "cookingDate": "2026-02-28",
+      "orderDeadline": "2026-02-28T18:00:00",
       "orderOpen": true
     },
 
 
     {
       "itemId": "orange-cranberry-biscotti",
-      "cookingDate": "2026-02-03",
-      "orderDeadline": "2026-02-02T18:00:00",
+      "cookingDate": "2026-02-28",
+      "orderDeadline": "2026-02-28T18:00:00",
+      "orderOpen": true
+    },
+
+    {
+      "itemId": "pistachio-biscotti",
+      "cookingDate": "2026-02-28",
+      "orderDeadline": "2026-02-28T18:00:00",
+      "orderOpen": true
+    },
+
+    {
+      "itemId": "zesty-fruit-nuts-biscotti",
+      "cookingDate": "2026-02-28",
+      "orderDeadline": "2026-02-28T18:00:00",
+      "orderOpen": true
+    },
+
+    {
+      "itemId": "orange-cranberry-biscotti",
+      "cookingDate": "2026-02-28",
+      "orderDeadline": "2026-02-28T18:00:00",
       "orderOpen": true
     }
-
 
   ],
   "categories": [
