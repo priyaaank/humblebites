@@ -62,13 +62,6 @@
       "cookingDate": "2026-02-28",
       "orderDeadline": "2026-02-28T18:00:00",
       "orderOpen": true
-    },
-
-    {
-      "itemId": "orange-cranberry-biscotti",
-      "cookingDate": "2026-02-28",
-      "orderDeadline": "2026-02-28T18:00:00",
-      "orderOpen": true
     }
 
   ],
@@ -86,7 +79,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 12,
-          "image": "/assets/images/products/Amond Biscotti.jpg",
+          "image": "/assets/images/products/almondbiscotti.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -102,7 +95,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 10,
-          "image": "/assets/images/products/coffee-almond-pecan.jpg",
+          "image": "/assets/images/products/coffee-almond-pecan.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -118,7 +111,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 12,
-          "image": "/assets/images/products/lemon-almond-biscotti.jpg",
+          "image": "/assets/images/products/lemon-almond-biscotti.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -134,7 +127,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 10,
-          "image": "/assets/images/products/biscotti.jpg",
+          "image": "/assets/images/products/cranberry-almond-biscotti.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -150,7 +143,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 8,
-          "image": "/assets/images/products/chocolate.jpg",
+          "image": "/assets/images/products/chocolate-biscotti.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -166,7 +159,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 8,
-          "image": "/assets/images/products/zestyfruitandnut.jpg",
+          "image": "/assets/images/products/zestyfruitandnut.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -182,7 +175,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 10,
-          "image": "/assets/images/products/orangecranberry.jpg",
+          "image": "/assets/images/products/orangecranberrybiscotti.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -199,7 +192,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 12,
-          "image": "/assets/images/products/lemon-biscotti.jpg",
+          "image": "/assets/images/products/lemon-biscotti.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -214,7 +207,7 @@
           "currency": "₹",
           "portionSize": "110 grams",
           "quantityAvailable": 10,
-          "image": "/assets/images/products/pistachio.jpg",
+          "image": "/assets/images/products/pistachio.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -237,7 +230,7 @@
           "currency": "₹",
           "portionSize": "100 gms",
           "quantityAvailable": 10,
-          "image": "/assets/images/products/coconutchocolatecookie.jpg",
+          "image": "/assets/images/products/coconutchocolatecookie.png",
           "available": true,
           "type": "egg",
           "allergens": [
@@ -269,7 +262,7 @@
           "currency": "₹",
           "portionSize": "180 gms",
           "quantityAvailable": 8,
-          "image": "/assets/images/products/oatmeal-choco-cookies.jpg",
+          "image": "/assets/images/products/oatmeal-choco-cookies.png",
           "available": true,
           "type": "egg",
           "allergens": [
@@ -285,7 +278,7 @@
           "currency": "₹",
           "portionSize": "150 gms",
           "quantityAvailable": 8,
-          "image": "/assets/images/products/oatmeal-cran-cookies.jpg",
+          "image": "/assets/images/products/oatmeal-cran-cookies.png",
           "available": true,
           "type": "egg",
           "allergens": [
@@ -301,7 +294,7 @@
           "currency": "₹",
           "portionSize": "Pack of 2 (Approx-120 gms)",
           "quantityAvailable": 10,
-          "image": "/assets/images/products/CaramelizedPista_Cookies.jpg",
+          "image": "/assets/images/products/CaramelizedPista_Cookies.png",
           "available": true,
           "type": "egg",
           "allergens": [
@@ -317,7 +310,7 @@
           "currency": "₹",
           "portionSize": "Pack of 2 (Approx-120 gms)",
           "quantityAvailable": 10,
-          "image": "/assets/images/products/CaramelizedPecanCookies.jpg",
+          "image": "/assets/images/products/CaramelizedPecanCookies.png",
           "available": true,
           "type": "egg",
           "allergens": [
@@ -340,7 +333,7 @@
           "currency": "₹",
           "portionSize": "1 Piece (approx 115gms)",
           "quantityAvailable": 15,
-          "image": "/assets/images/products/bananachocolatemuffin.jpg",
+          "image": "/assets/images/products/bananachocolatemuffin.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -356,7 +349,7 @@
           "currency": "₹",
           "portionSize": "1 Piece (approx 115gms)",
           "quantityAvailable": 15,
-          "image": "/assets/images/products/vanillachocolatemuffins.jpg",
+          "image": "/assets/images/products/vanillachocolatemuffins.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -372,7 +365,7 @@
           "currency": "₹",
           "portionSize": "1 Piece (approx 115gms)",
           "quantityAvailable": 12,
-          "image": "/assets/images/products/choco-cran-muffin.jpg",
+          "image": "/assets/images/products/choco-cran-muffin.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -389,7 +382,7 @@
           "currency": "₹",
           "portionSize": "1 Piece",
           "quantityAvailable": 12,
-          "image": "/assets/images/products/CinnamonRoll.jpg",
+          "image": "/assets/images/products/CinnamonRoll.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -412,7 +405,7 @@
           "currency": "₹",
           "portionSize": "225 gms",
           "quantityAvailable": 6,
-          "image": "/assets/images/products/lemondrizzlecakesprinkle.jpg",
+          "image": "/assets/images/products/lemondrizzlecakesprinkle.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -427,7 +420,7 @@
           "currency": "₹",
           "portionSize": "110 gms",
           "quantityAvailable": 6,
-          "image": "/assets/images/products/chocolatebrownies.jpeg",
+          "image": "/assets/images/products/chocolatebrownies.png",
           "available": true,
           "type": "egg",
           "allergens": [
@@ -442,7 +435,7 @@
           "currency": "₹",
           "portionSize": "2 pcs",
           "quantityAvailable": 8,
-          "image": "/assets/images/products/MiniCaramelCheesecake.jpg",
+          "image": "/assets/images/products/MiniCaramelCheesecake.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -457,7 +450,7 @@
           "currency": "₹",
           "portionSize": "2 pcs",
           "quantityAvailable": 8,
-          "image": "/assets/images/products/gulabjamun-cheesecake.jpg",
+          "image": "/assets/images/products/gulabjamun-cheesecake.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -473,7 +466,7 @@
           "currency": "₹",
           "portionSize": "125 gms",
           "quantityAvailable": 8,
-          "image": "/assets/images/products/Samoa Cheesecake.JPG",
+          "image": "/assets/images/products/Samoa Cheesecake.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -489,7 +482,7 @@
           "currency": "₹",
           "portionSize": "125 gms",
           "quantityAvailable": 8,
-          "image": "/assets/images/products/BiscoffCheesecake.JPG",
+          "image": "/assets/images/products/biscoffcheesecake.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -505,7 +498,7 @@
           "currency": "₹",
           "portionSize": "125 gms",
           "quantityAvailable": 8,
-          "image": "/assets/images/products/BrownieBottomCheesecake.JPG",
+          "image": "/assets/images/products/BrownieBottomCheesecake.png",
           "available": true,
           "type": "veg",
           "allergens": [
@@ -521,7 +514,7 @@
           "currency": "₹",
           "portionSize": "125 gms",
           "quantityAvailable": 8,
-          "image": "/assets/images/products/NewyorkCheesecake.JPG",
+          "image": "/assets/images/products/NewyorkCheesecake.png",
           "available": true,
           "type": "veg",
           "allergens": [
