@@ -1,44 +1,40 @@
 {
-  "lastUpdated": "2026-02-17",
+  "lastUpdated": "2026-03-02",
   "whatsappNumber": "919980742094",
   "scheduledDishes": [
 
     {
       "itemId": "almond-biscotti",
       "cookingDate": "2026-02-28",
-      "orderDeadline": "2026-02-28T18:00:00",
+      "orderDeadline": "2026-03-30T18:00:00",
       "orderOpen": true
     },
-
 
     {
       "itemId": "coffee-almond-pecan-biscotti",
       "cookingDate": "2026-02-28",
-      "orderDeadline": "2026-02-28T18:00:00",
+      "orderDeadline": "2026-03-30T18:00:00",
       "orderOpen": true
     },
-
 
     {
       "itemId": "lemon-almond-biscotti",
       "cookingDate": "2026-02-28",
-      "orderDeadline": "2026-02-28T18:00:00",
+      "orderDeadline": "2026-03-30T18:00:00",
       "orderOpen": true
     },
-
 
     {
       "itemId": "lemon-biscotti",
       "cookingDate": "2026-02-28",
-      "orderDeadline": "2026-02-28T18:00:00",
+      "orderDeadline": "2026-03-30T18:00:00",
       "orderOpen": true
     },
-
 
     {
       "itemId": "cranberry-almond-biscotti",
       "cookingDate": "2026-02-28",
-      "orderDeadline": "2026-02-28T18:00:00",
+      "orderDeadline": "2026-03-30T18:00:00",
       "orderOpen": true
     },
 
@@ -46,28 +42,28 @@
     {
       "itemId": "orange-cranberry-biscotti",
       "cookingDate": "2026-02-28",
-      "orderDeadline": "2026-02-28T18:00:00",
+      "orderDeadline": "2026-03-30T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "pistachio-biscotti",
       "cookingDate": "2026-02-28",
-      "orderDeadline": "2026-02-28T18:00:00",
+      "orderDeadline": "2026-03-30T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "zesty-fruit-nuts-biscotti",
       "cookingDate": "2026-02-28",
-      "orderDeadline": "2026-02-28T18:00:00",
+      "orderDeadline": "2026-03-30T18:00:00",
       "orderOpen": true
     },
 
     {
       "itemId": "chocolate-almond-biscotti",
       "cookingDate": "2026-02-28",
-      "orderDeadline": "2026-02-28T18:00:00",
+      "orderDeadline": "2026-03-30T18:00:00",
       "orderOpen": true
     }
 
