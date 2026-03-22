@@ -209,7 +209,7 @@ custom_js: |
             <div class="value-card">
                 <div class="value-icon">✨</div>
                 <h3>Small & Limited Batches</h3>
-                <p>Small is beautiful. Every batch carries Radina's personal touch.</p>
+                <p>Small is beautiful. Every batch carries a personal touch.</p>
             </div>
             <div class="value-card">
                 <div class="value-icon">🌿</div>
