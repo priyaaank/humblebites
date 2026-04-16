@@ -416,6 +416,38 @@
           ]
         },
         {
+          "id": "banana-chocolate-cake",
+          "name": "Banana Chocolate Cake",
+          "description": "Rich chocolate meets sweet bananas, brought together with the perfect crunch of toasted walnuts. Moist, comforting, and deeply flavorful. Every bite is soft, nutty, and indulgent.",
+          "price": 240,
+          "currency": "₹",
+          "portionSize": "200 gms",
+          "quantityAvailable": 6,
+          "image": "/assets/images/products/chocolatebananacake.png",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "dairy",
+            "nuts"
+          ]
+        },
+        {
+          "id": "banana-walnut-cake",
+          "name": "Banana Walnut Cake",
+          "description": "Soft, moist, and naturally sweet; this cake brings together ripe bananas and crunchy walnuts in perfect harmony. Simple, comforting, and baked just right for everyday indulgence.",
+          "price": 175,
+          "currency": "₹",
+          "portionSize": "200 gms",
+          "quantityAvailable": 6,
+          "image": "/assets/images/products/bananawalnutcake.png",
+          "available": true,
+          "type": "veg",
+          "allergens": [
+            "dairy",
+            "nuts"
+          ]
+        },
+        {
           "id": "chocolate-brownies",
           "name": "Double Chocolate Brownies",
           "description": "A melt-in-your-mouth double chocolate brownie, crafted with couverture chocolate and eggs for that perfect fudgy bite",
